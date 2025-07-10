@@ -1,0 +1,63 @@
+<script lang="ts">
+  import { onMount } from 'svelte';
+  import { writable } from 'svelte/store';
+
+  const slides = [
+    {
+      image: '/hero/slide_1.jpg',
+      title: 'Titre Slide 1',
+      subtitle: 'Sous-titre 1'
+    },
+    {
+      image: '/hero/slide_2.jpg',
+      title: 'Titre Slide 2',
+      subtitle: 'Sous-titre 2'
+    },
+    {
+      image: '/images/hero3.jpg',
+      title: 'Titre Slide 3',
+      subtitle: 'Sous-titre 3'
+    },
+  ];
+
+  let current = writable(0);
+
+  // Auto-play : change slide every 5 sec
+  onMount(() => {
+    const interval = setInterval(() => {
+      current.update(n => (n + 1) % slides.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  });
+
+  const goTo = (index: number) => current.set(index);
+</script>
+
+<section class="relative w-full min-h-screen overflow-hidden">
+  {#each slides as slide, i}
+    <div
+      class="absolute inset-0 transition-opacity duration-1000"
+      class:opacity-100={i === $current}
+      class:opacity-0={i !== $current}
+    >
+      <img src={slide.image} alt={slide.title} class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center text-white px-4">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">{slide.title}</h1>
+        <p class="text-lg md:text-xl">{slide.subtitle}</p>
+      </div>
+    </div>
+  {/each}
+
+  <!-- Dots nav -->
+  <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3">
+    {#each slides as _, i}
+      <button
+        on:click={() => goTo(i)}
+        class="w-3 h-3 rounded-full transition"
+        class:bg-yellow-400={i === $current}
+        class:bg-white={i !== $current}
+        aria-label={`Aller à la diapositive ${i + 1}`}
+      ></button>
+    {/each}
+  </div>
+</section>
