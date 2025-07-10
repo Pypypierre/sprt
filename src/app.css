@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+body {
+  margin: 0;
+  background-color: #121212;  /* or any shade above */
+  color: #f0f0f0;             /* light text to contrast */
+  font-family: 'Cinzel', serif;
+}
