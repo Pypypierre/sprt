@@ -1,4 +1,4 @@
-<section id="values" class="w-full py-20 bg-black text-white">
+<section id="values" class="w-full py-20 bg-[#232323] text-white">
   <div class="w-[90%] mx-auto text-left max-w-3xl">
     <h2 class="text-4xl text-[#F9B333] font-bold mb-6">
       Une vision, des valeurs, votre confiance

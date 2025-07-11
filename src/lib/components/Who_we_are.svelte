@@ -1,6 +1,36 @@
-<section id="Who_we_are" class="w-full py-20 bg-black text-white">
-  <div class="w-[90%] mx-auto text-center">
-    <h2 class="text-4xl font-bold mb-8">Nos valeurs</h2>
-    <p class="max-w-2xl mx-auto text-gray-300">Ici, tu peux mettre un texte fort sur tes valeurs, ton ADN, etc.</p>
+<section id="who_we_are" class="w-full py-20 bg-black text-white">
+  <div class="w-[90%] mx-auto max-w-5xl text-center">
+    <!-- Titre -->
+    <h2 class="text-4xl md:text-5xl font-bold mb-4">Qui sommes-nous ?</h2>
+
+    <!-- Accroche -->
+    <p class="text-lg md:text-xl text-gray-300 mb-12 leading-relaxed">
+      Deux personnalités différentes et complémentaires.<br>
+      Leur mode de fonctionnement unique dissocie technique, analyse et mise en œuvre stratégique.<br>
+      Jules Lohnherr et Elyas Akkouh se sont rencontrés sur un forum, et leur entente est devenue un véritable accélérateur.
+    </p>
+
+    <!-- Photos + noms + bios -->
+    <div class="grid grid-cols-2 gap-6 md:gap-12 items-start">
+      <!-- Jules -->
+      <div class="flex flex-col items-center text-center">
+        <img src="Jules.jpeg" alt="Jules Lohnherr" class="w-48 h-48 rounded-full object-cover mb-4">
+        <h3 class="text-xl font-semibold">Jules Lohnherr</h3>
+        <p class="text-gray-400 mb-2">Fondateur – Président</p>
+        <p class="text-gray-400 max-w-xs text-sm leading-relaxed">
+          Étudiant à CentraleSupélec, Jules gère la relation client et l’exécution des trades, qu’il optimise grâce aux données et aux statistiques.
+        </p>
+      </div>
+
+      <!-- Elyas -->
+      <div class="flex flex-col items-center text-center">
+        <img src="elyas.jpeg" alt="Elyas Akkouh" class="w-48 h-48 rounded-full object-cover mb-4">
+        <h3 class="text-xl font-semibold">Elyas Akkouh</h3>
+        <p class="text-gray-400 mb-2">Fondateur – Directeur Général</p>
+        <p class="text-gray-400 max-w-xs text-sm leading-relaxed">
+          Trader et analyste, Elyas observe et décrypte les mouvements du Bitcoin pour faire émerger des opportunités de positionnement stratégique.
+        </p>
+      </div>
+    </div>
   </div>
 </section>
