@@ -26,22 +26,24 @@
 	class:bg-black={$scrolled}
   	class:bg-transparent={!$scrolled}
 >
-	<div class="w-[90%] items-center flex justify-between mx-auto">
+	<div class="w-[90%] flex items-center justify-between mx-auto">
 		<div class="flex items-center space-x-4">
-			<img src="sprt-logo.png" alt="Logo" class="h-32 w-auto" />
+			 <a href="/" class="block">
+				<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
+			</a>
 		</div>
-		<nav class="hidden laptop:flex space-x-4 text-lg tracking-widest uppercase items-center"> 
+		<nav class="hidden laptop:flex space-x-4 text-lg tracking-widest font-bold uppercase items-center"> 
 			<a href="#concept" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Le concept</a>
 			<a href="#values" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nos valeurs</a>
 			<a href="#Who_we_are" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Qui sommes nous</a>
 			<a href="#Contact" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nous contacter</a>
-			<span class="border-l border-gray-500 h-10 mx-4"></span>
+			<span class="border-l border-gray-500 h-13 mx-4"></span>
     		<div class="flex items-center space-x-4">
 				<a href="https://www.instagram.com/sprt.society/" target="_blank">
-					<img src="/icons/insta.png" alt="Instagram" class="h-10 w-10" />
+					<img src="/icons/insta.png" alt="Instagram" class="h-12 w-12" />
 				</a>
 				<a href="https://www.linkedin.com/company/sprt-society/" target="_blank">
-					<img src="/icons/linkedin.png" alt="LinkedIn" class="h-10 w-10" />
+					<img src="/icons/linkedin.png" alt="LinkedIn" class="h-12 w-12" />
 				</a>
     		</div>
 		</nav>		
@@ -55,6 +57,21 @@
 	{@render children()}
 </main>
 
-<footer>
-	<p>&copy; 2025 My Site</p>
+<footer class="text-white px-6 py-4 flex items-center">
+	<div class="w-[90%] flex items-center justify-between mx-auto">
+		<nav class="hidden laptop:flex flex-wrap gap-x-8 gap-y-2 text-lg tracking-widest"> 
+			<a href="#concept" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Le concept</a>
+			<a href="#values" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nos valeurs</a>
+			<a href="#Who_we_are" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Qui sommes nous</a>
+			<a href="#Contact" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nous contacter</a>
+			<a href="/legal_notices" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Mentions légales</a>
+			<a href="/downloads/FORMULAIRE-DE-RÉTRACTATION.pdf" target="_blank" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Se rétracter</a>
+			<a href="policies" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Politiques</a>
+		</nav>		
+		<div class="flex items-center space-x-4">
+			 <a href="/" class="block">
+				<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
+			</a>
+		</div>
+	</div>
 </footer>
