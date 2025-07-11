@@ -4,13 +4,34 @@
   	import { writable } from 'svelte/store';
 
 	const scrolled = writable(false);
-	onMount(() => {
-		const handleScroll = () => {
-			scrolled.set(window.scrollY > 20);
-		};
+	const footerVisible = writable(false);
 
-		window.addEventListener('scroll', handleScroll);
-		return () => window.removeEventListener('scroll', handleScroll);
+	onMount(() => {
+	const handleScroll = () => {
+		scrolled.set(window.scrollY > 20);
+	};
+
+	window.addEventListener('scroll', handleScroll);
+
+	const footer = document.getElementById('footer');
+
+	const observer = new IntersectionObserver(
+		(entries) => {
+		entries.forEach(entry => {
+			footerVisible.set(entry.isIntersecting);
+		});
+		},
+		{ threshold: 0.5 }
+	);
+
+	if (footer) {
+		observer.observe(footer);
+	}
+
+	return () => {
+		window.removeEventListener('scroll', handleScroll);
+		if (footer) observer.unobserve(footer);
+	};
 	});
 
 	let { children } = $props();
@@ -22,9 +43,11 @@
 	<title>Sprt</title>
 </svelte:head>
 
-<header class="fixed top-0 left-0 w-full z-50 transition-colors duration-500 text-white px-6 py-4 flex items-center"
+<header class="fixed top-0 left-0 w-full z-50 transition-colors duration-500 transition-opacity text-white px-6 py-4 flex items-center"
 	class:bg-black={$scrolled}
   	class:bg-transparent={!$scrolled}
+	class:opacity-0={$footerVisible}
+	class:opacity-100={!$footerVisible}
 >
 	<div class="w-[90%] flex items-center justify-between mx-auto">
 		<div class="flex items-center space-x-4">
@@ -57,9 +80,9 @@
 	{@render children()}
 </main>
 
-<footer class="text-white px-6 py-4 flex items-center">
+<footer id="footer" class="text-white px-6 py-4 flex items-center">
 	<div class="w-[90%] flex items-center justify-between mx-auto">
-		<nav class="hidden laptop:flex flex-wrap gap-x-8 gap-y-2 text-lg tracking-widest"> 
+		<nav class="flex flex-wrap gap-x-8 gap-y-2 text-lg tracking-widest"> 
 			<a href="#concept" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Le concept</a>
 			<a href="#values" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nos valeurs</a>
 			<a href="#Who_we_are" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Qui sommes nous</a>
@@ -70,7 +93,7 @@
 		</nav>		
 		<div class="flex items-center space-x-4">
 			 <a href="/" class="block">
-				<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
+				<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto object-contain" />
 			</a>
 		</div>
 	</div>
