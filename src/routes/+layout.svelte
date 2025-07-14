@@ -94,9 +94,9 @@
 	{@render children()}
 </main>
 
-<footer id="footer" class="text-white px-6 py-4 flex items-center">
-	<div class="w-[90%] flex items-center justify-between mx-auto">
-		<nav class="flex flex-wrap gap-x-8 gap-y-2 text-lg tracking-widest"> 
+<footer id="footer" class="text-white px-6 py-4 flex flex-col items-center pb-10">
+	<div class="w-[90%] flex items-center justify-between mx-auto pb-10">
+		<nav class="flex flex-wrap gap-x-8 gap-y-2 text-lg tracking-widest pt-10"> 
 			<a href="#concept" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Le concept</a>
 			<a href="#values" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nos valeurs</a>
 			<a href="#who_we_are" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Qui sommes nous</a>
@@ -109,5 +109,10 @@
 				<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto object-contain" />
 			</a>
 		</div>
+	</div>
+	<div class="w-[95%] h-[1px] bg-[#F9B333] mb-4">
+	  <p class="text-base text-center mt-2">
+		SPRT 2024. All rights reserved.
+	  </p>
 	</div>
 </footer>
