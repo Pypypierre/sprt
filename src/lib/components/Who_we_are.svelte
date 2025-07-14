@@ -1,18 +1,14 @@
 <section id="who_we_are" class="w-full py-20 bg-black text-white">
-  <div class="w-[90%] mx-auto max-w-5xl text-center">
-    <!-- Titre -->
+  <div class="w-[90%] mx-auto max-w-7xl text-center">
     <h2 class="text-4xl md:text-5xl font-bold mb-4">Qui sommes-nous ?</h2>
 
-    <!-- Accroche -->
     <p class="text-lg md:text-xl text-gray-300 mb-12 leading-relaxed">
       Deux personnalités différentes et complémentaires.<br>
       Leur mode de fonctionnement unique dissocie technique, analyse et mise en œuvre stratégique.<br>
       Jules Lohnherr et Elyas Akkouh se sont rencontrés sur un forum, et leur entente est devenue un véritable accélérateur.
     </p>
 
-    <!-- Photos + noms + bios -->
     <div class="grid grid-cols-2 gap-6 md:gap-12 items-start">
-      <!-- Jules -->
       <div class="flex flex-col items-center text-center">
         <img src="Jules.jpeg" alt="Jules Lohnherr" class="w-48 h-48 rounded-full object-cover mb-4">
         <h3 class="text-xl font-semibold">Jules Lohnherr</h3>
@@ -22,7 +18,6 @@
         </p>
       </div>
 
-      <!-- Elyas -->
       <div class="flex flex-col items-center text-center">
         <img src="elyas.jpeg" alt="Elyas Akkouh" class="w-48 h-48 rounded-full object-cover mb-4">
         <h3 class="text-xl font-semibold">Elyas Akkouh</h3>

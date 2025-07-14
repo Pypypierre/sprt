@@ -10,6 +10,21 @@
   --breakpoint-desktop: 80rem;
 }
 
+@layer utilities {
+  @keyframes fade-in-out {
+    0%, 100% {
+      opacity: 0;
+    }
+	50% {
+	  opacity: 1;
+	}
+  }
+
+  .animate-fade-in-out {
+    animation: fade-in-out 1s ease-in-out infinite;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
