@@ -8,6 +8,12 @@
 	const scrolled = writable(false);
 	const footerVisible = writable(false);
 	const isFirstLoad = writable(true);
+  	
+	const isOpen = writable(false);
+
+	function toggleMobileMenu() {
+	  isOpen.update(v => !v);
+	}
 
 	async function scrollToValues(event: Event, sectionId: string) {
 		event.preventDefault();
@@ -47,6 +53,15 @@
 		clearTimeout(timer);
 	};
 	});
+
+	$effect(() => {
+		if ($isOpen) {
+			document.body.style.overflow = 'hidden';
+		} else {
+			document.body.style.overflow = '';
+		}
+	});
+
 	let { children } = $props();
 </script>
 
@@ -71,7 +86,7 @@
 					<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
 				</a>
 			</div>
-			<nav class="hidden laptop:flex space-x-4 text-lg tracking-widest font-bold uppercase items-center"> 
+			<nav class="hidden laptop:flex space-x-4 text-lg pl-5 tracking-widest font-bold uppercase items-center"> 
 				<a href="/#concept" onclick={(event: Event) => scrollToValues(event, "concept")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Le concept</a>
 				<a href="/#values" onclick={(event: Event) => scrollToValues(event, "values")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nos valeurs</a>
 				<a href="/#who_we_are" onclick={(event: Event) => scrollToValues(event, "who_we_are")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Qui sommes nous</a>
@@ -86,8 +101,52 @@
 					</a>
 	    		</div>
 			</nav>		
-			<div class="tablet:hidden"> <!-- mobile menu -->
-			</div>
+			<nav class="laptop:hidden"> <!-- mobile menu -->
+				<button
+					class="tablet:hidden flex flex-col justify-center items-center w-10 h-10 relative z-50"
+					onclick={toggleMobileMenu}
+					aria-label="Toggle menu"
+				>
+					<span class="block w-6 h-0.5 bg-white transition duration-300"
+						class:rotate-45={$isOpen}
+						class:translate-y-1.5={$isOpen}></span>
+					<span class="block w-6 h-0.5 bg-white my-1 transition duration-300"
+				    	class:opacity-0={$isOpen}></span>
+					<span class="block w-6 h-0.5 bg-white transition duration-300"
+						class:-rotate-45={$isOpen}
+						class:-translate-y-1.5={$isOpen}></span>
+				</button>
+				<button
+					type="button"
+					aria-label="Close mobile menu overlay"
+					class="fixed left-0 right-0 bottom-0 top-36 bg-black/50 backdrop-blur-sm z-40 transition-opacity duration-300"
+					class:opacity-100={$isOpen}
+					class:opacity-0={!$isOpen}
+					class:pointer-events-auto={$isOpen}
+					class:pointer-events-none={!$isOpen}
+					onclick={() => $isOpen = false}
+				></button>
+				<div class="absolute flex items-center top-full right-6 mt-4 w-56 bg-[#181818] border border-yellow-400 rounded-lg shadow-lg flex flex-col space-y-4 py-4 px-6 text-right z-50 transform transition-all duration-300 origin-top-right"
+					class:opacity-0={!$isOpen}
+					class:pointer-events-none={!$isOpen}
+					class:scale-100={$isOpen}
+					class:opacity-100={$isOpen}
+					class:pointer-events-auto={$isOpen}
+				>
+					<a href="/#concept" onclick={(event: Event) => {$isOpen = false; scrollToValues(event, "concept");}} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Le concept</a>
+					<a href="/#values" onclick={(event: Event) => {$isOpen = false; scrollToValues(event, "values");}} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nos valeurs</a>
+					<a href="/#who_we_are" onclick={(event: Event) => {$isOpen = false; scrollToValues(event, "who_we_are");}} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Qui sommes nous</a>
+					<a href="/contact" onclick={(event: Event) => $isOpen = false} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nous contacter</a>
+	    			<div class="flex items-center space-x-4">
+						<a href="https://www.instagram.com/sprt.society/" target="_blank">
+							<img src="/icons/insta.png" alt="Instagram" class="h-12 w-12" />
+						</a>
+						<a href="https://www.linkedin.com/company/sprt-society/" target="_blank">
+							<img src="/icons/linkedin.png" alt="LinkedIn" class="h-12 w-12" />
+						</a>
+	    			</div>
+				</div>
+			</nav>
 		</div>	
 	</header>
 {/if}
