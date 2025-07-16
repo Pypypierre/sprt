@@ -21,6 +21,11 @@
 		const el = document.getElementById(sectionId);
 		el?.scrollIntoView({ behavior: 'smooth' });
 	}
+
+	function scrollToTop() {
+    	window.scrollTo({ top: 0, behavior: 'smooth' });
+	}
+
 	onMount(() => {
 	const handleScroll = () => {
 		scrolled.set(window.scrollY > 20);
@@ -101,7 +106,7 @@
 					</a>
 	    		</div>
 			</nav>		
-			<nav class="laptop:hidden"> <!-- mobile menu -->
+			<nav class="laptop:hidden">
 				<button
 					class="tablet:hidden flex flex-col justify-center items-center w-10 h-10 relative z-50"
 					onclick={toggleMobileMenu}
@@ -157,7 +162,7 @@
 
 <footer id="footer" class="text-white px-6 py-4 flex flex-col items-center pb-5 pt-5">
 	<div class="w-[90%] flex items-center justify-between mx-auto pb-10">
-		<nav class="flex flex-wrap gap-x-8 gap-y-2 text-lg tracking-widest pt-10"> 
+		<nav class="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4 text-lg tracking-widest pt-10"> 
 			<a href="/#concept" onclick={(event: Event) => scrollToValues(event, "concept")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Le concept</a>
 			<a href="/#values" onclick={(event: Event) => scrollToValues(event, "values")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nos valeurs</a>
 			<a href="/#who_we_are" onclick={(event: Event) => scrollToValues(event, "who_we_are")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Qui sommes nous</a>
@@ -165,12 +170,21 @@
 			<a href="/downloads/FORMULAIRE-DE-RÉTRACTATION.pdf" target="_blank" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Se rétracter</a>
 			<a href="/contact" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nous contacter</a>
 		</nav>		
-		<div class="flex items-center space-x-4">
+		<div class="hidden laptop:flex items-center space-x-4">
 			 <a href="/" class="block">
 				<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto object-contain" />
 			</a>
 		</div>
 	</div>
+	<button 
+		onclick={scrollToTop}
+		class="mb-5 flex items-center justify-center w-12 h-12 rounded-full border border-[#F9B333] text-[#F9B333] hover:bg-[#F9B333] hover:text-black transition laptop:hidden"
+		aria-label="Retour en haut"
+	>
+		<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+			<path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/>
+		</svg>
+	</button>
 	<div class="w-[95%] h-[1px] bg-[#F9B333] mb-4">
 	  <p class="text-base text-center mt-2">
 		SPRT 2025. All rights reserved.
