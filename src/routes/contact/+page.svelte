@@ -1,4 +1,4 @@
-<section id="contact-info" class="laptop:pt-40 scroll-mt-20 w-full py-20 bg-[#181818] text-white">
+<section id="contact-info" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center max-w-7xl">
 		<h2 class="text-4xl laptop:text-left text-[#F9B333] font-bold mb-6 pt-10">
 			Nos coordonnées
@@ -30,43 +30,47 @@
 	</div>
 </section>
 
-<section id="contact-form" class="w-full py-20 bg-[#181818] text-white">
+<section id="contact-form" class="w-full py-20 bg-[#1f1f1f] text-white">
 	<div class="w-[90%] mx-auto max-w-7xl">
-		<h2 class="text-4xl md:text-5xl font-bold mb-6 text-[#F9B333]">Nous contacter</h2>
+		<h2 class="text-4xl md:text-5xl font-bold mb-2 pt-5 text-[#F9B333]">Nous contacter</h2>
+		<p class=" text-gray-300 text-lg leading-relaxed">
+			Une question, un projet ?
+		</p>
 		<p class="mb-8 text-gray-300 text-lg leading-relaxed">
-			Une question, un projet ? Remplissez ce formulaire et nous reviendrons vers vous dans les plus bref délais.
+			Remplissez ce formulaire et nous reviendrons vers vous dans les plus bref délais.
 		</p>
 
 		<form class="space-y-6 w-[60%] mx-auto">
-			<!-- Nom -->
 			<div>
-				<label for="name" class="block mb-2 text-sm font-medium text-gray-300">Nom complet</label>
+				<label for="name" class="block mb-2 text-sm font-medium text-gray-300">Nom complet *</label>
 				<input type="text" id="name" name="name" required
-					class="w-full px-4 py-3 bg-[#1f1f1f] border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#F9B333] transition" />
+					class="w-full px-4 py-3 bg-[#2e2e2e] border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#F9B333] transition" />
 			</div>
 
-			<!-- Email -->
 			<div>
-				<label for="email" class="block mb-2 text-sm font-medium text-gray-300">Email</label>
-				<input type="email" id="email" name="email" required
-				  class="w-full px-4 py-3 bg-[#1f1f1f] border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#F9B333] transition" />
+				<label for="phone" class="block mb-2 text-sm font-medium text-gray-300">Numéro de téléphone *</label>
+				<input type="text" id="phone" name="phone" required
+					class="w-full px-4 py-3 bg-[#2e2e2e] border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#F9B333] transition" />
 			</div>
 
-			<!-- Sujet -->
+			<div>
+				<label for="email" class="block mb-2 text-sm font-medium text-gray-300">Email *</label>
+				<input type="email" id="email" name="email" required
+				  class="w-full px-4 py-3 bg-[#2e2e2e] border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#F9B333] transition" />
+			</div>
+
 			<div>
 				<label for="subject" class="block mb-2 text-sm font-medium text-gray-300">Sujet</label>
 				<input type="text" id="subject" name="subject"
-				  class="w-full px-4 py-3 bg-[#1f1f1f] border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#F9B333] transition" />
+				  class="w-full px-4 py-3 bg-[#2e2e2e] border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#F9B333] transition" />
 			</div>
 
-			<!-- Message -->
 			<div>
-				<label for="message" class="block mb-2 text-sm font-medium text-gray-300">Message</label>
+				<label for="message" class="block mb-2 text-sm font-medium text-gray-300">Message *</label>
 				<textarea id="message" name="message" rows="5" required
-				  class="w-full px-4 py-3 bg-[#1f1f1f] border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#F9B333] transition"></textarea>
+				  class="w-full px-4 py-3 bg-[#2e2e2e] border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#F9B333] transition"></textarea>
 			</div>
 
-			<!-- Bouton -->
 			<button type="submit"
 				class="px-8 py-3 bg-[#F9B333] text-black font-semibold rounded-full hover:bg-yellow-400 transition">
 				Envoyer

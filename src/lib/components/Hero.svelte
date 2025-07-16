@@ -25,7 +25,6 @@
 
   let current = writable(0);
 
-  // Auto-play : change slide every 5 sec
   onMount(() => {
     const interval = setInterval(() => {
       current.update(n => (n + 1) % slides.length);
@@ -51,7 +50,6 @@
     </div>
   {/each}
 
-  <!-- Dots nav -->
   <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3">
     {#each slides as _, i}
       <button

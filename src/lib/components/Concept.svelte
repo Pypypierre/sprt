@@ -1,4 +1,4 @@
-<section id="concept" class="scroll-mt-40 w-full py-20 bg-[#181818] text-white">
+<section id="concept" class="w-full py-20 bg-[#181818] text-white">
 <div class="w-[90%] mx-auto text-left max-w-7xl">
     <h2 class="text-4xl text-[#F9B333] font-bold mb-6">
       Notre concept

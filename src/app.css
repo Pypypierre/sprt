@@ -1,13 +1,24 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
-
+@tailwind components;
+@tailwind utilities;
 
 @theme {
   --breakpoint-*: initial;
   --breakpoint-tablet: 40rem;
   --breakpoint-laptop: 68.75rem;
   --breakpoint-desktop: 80rem;
+}
+
+@layer base {
+  section {
+    @apply w-full min-h-[80vh] flex items-center py-20;
+  }
+
+  section {
+    @apply scroll-mt-32 laptop:scroll-mt-36;
+  }
 }
 
 @layer utilities {

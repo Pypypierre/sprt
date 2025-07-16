@@ -27,7 +27,7 @@
 	</div>
 </section>
 
-<section id="strategies" class="scroll-mt-20 w-full py-20 bg-[#181818] text-white">
+<section id="strategies" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-right max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Notre stratégie, étape par étape
@@ -57,7 +57,7 @@
   </div>
 </section>
 
-<section id="api-key" class="scroll-mt-20 w-full py-20 bg-[#181818] text-white">
+<section id="api-key" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-left max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			La clé API, de A à Z
@@ -87,7 +87,7 @@
 	</div>
 </section>
 
-<section id="api-key" class="scroll-mt-20 w-full py-20 bg-[#181818] text-white">
+<section id="api-key" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Bénéficier du service et investir en confiance
