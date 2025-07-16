@@ -70,6 +70,9 @@
 				<textarea id="message" name="message" rows="5" required
 				  class="w-full px-4 py-3 bg-[#2e2e2e] border border-gray-600 rounded-lg text-white placeholder-gray-500 focus:outline-none focus:border-[#F9B333] transition"></textarea>
 			</div>
+			<p class="text-gray-500 text-sm">
+				* Champs obligatoires
+			</p>
 
 			<button type="submit"
 				class="px-8 py-3 bg-[#F9B333] text-black font-semibold rounded-full hover:bg-yellow-400 transition">
