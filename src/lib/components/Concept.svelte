@@ -3,7 +3,7 @@
     <h2 class="text-4xl text-[#F9B333] font-bold mb-6">
       Notre concept
     </h2>
-    <div class="text-gray-300 text-lg text-justify md:text-xl leading-relaxed space-y-4">
+    <div id='paraph' class="text-gray-300 text-lg space-y-4">
     	<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">SPRT Society met à votre disposition une stratégie crypto pilotée, adaptée aux conditions du marché et entièrement automatisée.</p>
 		<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">Grâce à un système de clé API, vous gardez toujours la main sur votre compte, sans transfert de fonds.</p>
 		<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">Notre modèle vous permet de démarrer facilement, avec un seuil accessible et un accompagnement continu, tout en gardant la liberté de stopper quand vous le souhaitez.</p>

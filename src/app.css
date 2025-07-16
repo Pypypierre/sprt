@@ -19,6 +19,10 @@
   section {
     @apply scroll-mt-32 laptop:scroll-mt-36;
   }
+
+  [id="paraph"] {
+	@apply text-gray-300 text-lg text-center laptop:text-justify leading-relaxed;
+  }
 }
 
 @layer utilities {

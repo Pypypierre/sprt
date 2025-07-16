@@ -1,10 +1,10 @@
-<section id="intro-concept" class="pt-20 w-full h-[80vh] py-20 bg-[#181818] text-white">
+<section id="intro-concept" class=" w-full py-40 laptop:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-left max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Novices ou experts, nous facilitons vos placements en cryptomonnaies
 		</h2>
 		<div class="content flex pt-10">
-			<div class="flex-1 text-gray-300 text-lg text-justify md:text-xl leading-relaxed space-y-6">
+			<div id="paraph" class="flex-1 md:text-xl space-y-6">
 				<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">
 					Le monde des cryptos est pour beaucoup synonyme de manque de transparence et de peu de lisibilité sur les statuts ou le mode de fonctionnement.
 				</p>
@@ -15,7 +15,7 @@
 					Cette stratégie vous est communiquée automatiquement par une clé API.
 				</p>
 			</div>
-			<div class="flex-1 flex justify-center">
+			<div class="hidden laptop:flex-1 flex justify-center">
 				<img src="concept/intro-concept.jpg" alt="Concept finance illustation" class="w-full max-w-md rounded-lg shadow-lg mt-6 md:mt-0" />
 			</div>
 		</div>
@@ -28,15 +28,15 @@
 </section>
 
 <section id="strategies" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-right max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Notre stratégie, étape par étape
 		</h2>
 		<div class="flex flex-wrap md:flex-nowrap items-center pt-5">
-			<div class="flex-1 flex justify-center">
+			<div class="hidden laptop:flex-1 flex justify-center">
 				<img src="concept/strategies.png" alt="Screenshot trading app" class="w-full max-w-md rounded-lg shadow-lg mt-6 md:mt-0" />
 			</div>
-			<lu class="flex-1 text-gray-300 text-lg text-justify md:text-xl leading-relaxed space-y-6">
+			<lu id="paraph" class="flex-1 md:text-xl space-y-6">
 				<li class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">
 					Stratégie élaborée sur des probabilités et des statistiques pour optimiser le trading de notre trader
 				</li>
@@ -60,10 +60,10 @@
 <section id="api-key" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-left max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
-			La clé API, de A à Z
+			La clé API,<br> de A à Z
 		</h2>
 		<div class="flex flex-wrap md:flex-nowrap items-center pt-5">
-			<lu class="flex-1 text-gray-300 text-lg text-justify md:text-xl leading-relaxed space-y-6">
+			<lu id="paraph" class="laptop:flex-1 space-y-6">
 				<li class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">
 					Votre argent reste sur votre wallet, nous n’y avons pas accès
 				</li>
@@ -80,7 +80,7 @@
 					Les trades qui se placent sur votre compte sont ceux que nous plaçons sur notre compte
 				</li>
 			</lu>
-			<div class="flex-1 flex justify-center">
+			<div class="hidden laptop:flex-1 flex justify-center">
 				<img src="concept/api-key.png" alt="Trading values board" class="w-full max-w-md rounded-lg shadow-lg mt-6 md:mt-0" />
 			</div>
 		</div>
@@ -92,8 +92,8 @@
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Bénéficier du service et investir en confiance
 		</h2>
-		<div class="flex flex-wrap md:flex-nowrap items-center pt-5">
-			<div class="flex-1 text-gray-300 text-lg text-justify md:text-xl leading-relaxed space-y-6">
+		<div id='paraph' class="flex flex-wrap md:flex-nowrap items-center pt-5">
+			<div class="flex-1 space-y-6">
 				<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">
 					Vous créez ou disposez d’un compte de trading Bitget.
 				</p>
