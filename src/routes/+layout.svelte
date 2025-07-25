@@ -106,9 +106,9 @@
 					</a>
 	    		</div>
 			</nav>		
-			<nav class="laptop:hidden">
+			<nav class="hidden tablet:flex laptop:hidden">
 				<button
-					class="tablet:hidden flex flex-col justify-center items-center w-10 h-10 relative z-50"
+					class="flex flex-col justify-center items-center w-10 h-10 relative z-50"
 					onclick={toggleMobileMenu}
 					aria-label="Toggle menu"
 				>
@@ -152,8 +152,26 @@
 	    			</div>
 				</div>
 			</nav>
+			<nav class="flex mobile:hidden">
+			</nav>
 		</div>	
 	</header>
+	<nav
+	class="fixed bottom-0 left-0 right-0 z-50 flex justify-around items-center bg-black text-yellow-400 border-t border-yellow-400 py-2 mobile:hidden"
+	>
+		<a href="/#concept" onclick={(event: Event) => {$isOpen = false; scrollToValues(event, "concept");}} class="flex flex-col items-center text-xs">
+			<span>Concept</span>
+		</a>
+		<a href="/#values" onclick={(event: Event) => {$isOpen = false; scrollToValues(event, "values");}} class="flex flex-col items-center text-xs">
+			<span>Nos valeurs</span>
+		</a>
+		<a href="/#who_we_are" onclick={(event: Event) => {$isOpen = false; scrollToValues(event, "who_we_are");}} class="flex flex-col items-center text-xs">
+			<span>Qui sommes nous</span>
+		</a>
+		<a href="/contact" class="flex flex-col items-center text-xs">
+			<span>Nous contacter</span>
+		</a>
+	</nav>
 {/if}
 
 <main>

@@ -5,15 +5,15 @@
 @tailwind utilities;
 
 @theme {
-  --breakpoint-*: initial;
-  --breakpoint-tablet: 40rem;
+  --breakpoint-mobile: 40rem;
+  --breakpoint-tablet: 48rem;
   --breakpoint-laptop: 71.25rem;
   --breakpoint-desktop: 80rem;
 }
 
 @layer base {
   section {
-    @apply w-full min-h-[80vh] flex items-center py-20;
+    @apply w-full flex items-center py-20;
   }
 
   section {
@@ -21,7 +21,7 @@
   }
 
   [id="paraph"] {
-	@apply text-gray-300 text-lg text-center laptop:text-justify leading-relaxed;
+	@apply text-gray-300 text-base tablet:text-lg laptop:text-xl desktop:text-2xl text-center laptop:text-justify leading-relaxed;
   }
 }
 
