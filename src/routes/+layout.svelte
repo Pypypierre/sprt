@@ -35,6 +35,7 @@
       isFirstLoad.set(false);
     }, 1000);
 
+	handleScroll();
 	window.addEventListener('scroll', handleScroll);
 
 	const footer = document.getElementById('footer');
@@ -79,9 +80,9 @@
 </svelte:head>
 
 {#if !$isFirstLoad}
-	<header class="fixed top-0 left-0 w-full z-50 transition-colors duration-500 transition-opacity text-white px-6 py-4 flex items-center"
-		class:bg-black={$scrolled}
-	  	class:bg-transparent={!$scrolled}
+	<header class="bg-transparent mobile:fixed top-0 left-0 w-full z-50 laptop:transition-colors duration-500 transition-opacity text-white px-6 py-4 flex items-center"
+		class:laptop:bg-black={$scrolled}
+	  	class:laptop:bg-transparent={!$scrolled}
 		class:opacity-0={$footerVisible}
 		class:opacity-100={!$footerVisible}
 	>
@@ -157,7 +158,9 @@
 		</div>	
 	</header>
 	<nav
-	class="fixed bottom-0 left-0 right-0 z-50 flex justify-around items-center bg-black text-yellow-400 border-t border-yellow-400 py-2 mobile:hidden"
+	class="fixed bottom-0 left-0 right-0 z-50 flex justify-around items-center bg-black text-yellow-400 border-t border-yellow-400 py-2 shadow-[0_-2px_5px_rgba(0,0,0,0.3)] rounded-t-xl mobile:hidden"
+		class:opacity-0={$footerVisible}
+		class:opacity-100={!$footerVisible}
 	>
 		<a href="/#concept" onclick={(event: Event) => {$isOpen = false; scrollToValues(event, "concept");}} class="flex flex-col items-center text-xs">
 			<span>Concept</span>
