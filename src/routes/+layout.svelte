@@ -158,23 +158,15 @@
 		</div>	
 	</header>
 	<nav
-	class="fixed px-4 bottom-0 left-0 right-0 z-50 items-center bg-black text-yellow-400 border-t border-yellow-400 py-2 rounded-t-xl mobile:hidden"
-		class:opacity-0={$footerVisible}
-		class:opacity-100={!$footerVisible}
+	class="fixed bottom-0 left-0 right-0 z-50 bg-black text-yellow-400 border-t border-yellow-400 py-2 px-4 rounded-t-xl mobile:hidden"
+	class:opacity-0={$footerVisible}
+	class:opacity-100={!$footerVisible}
 	>
-		<div class="max-w-sm mx-auto gap-2 flex justify-between items-center">
-			<a href="/#concept" onclick={(event: Event) => {$isOpen = false; scrollToValues(event, "concept");}} class="flex flex-col items-center text-xs">
-				<span>Concept</span>
-			</a>
-			<a href="/#values" onclick={(event: Event) => {$isOpen = false; scrollToValues(event, "values");}} class="flex flex-col items-center text-xs">
-				<span>Nos valeurs</span>
-			</a>
-			<a href="/#who_we_are" onclick={(event: Event) => {$isOpen = false; scrollToValues(event, "who_we_are");}} class="flex flex-col items-center text-xs">
-				<span>Qui sommes nous</span>
-			</a>
-			<a href="/contact" class="flex flex-col items-center text-xs">
-				<span>Nous contacter</span>
-			</a>
+		<div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 w-fit max-w-full mx-auto text-center">
+			<a href="/#concept" class="text-sm">Concept</a>
+			<a href="/#values" class="text-sm">Nos valeurs</a>
+			<a href="/#who_we_are" class="text-sm">Qui sommes nous</a>
+			<a href="/contact" class="text-sm">Nous contacter</a>
 		</div>
 	</nav>
 {/if}
