@@ -158,7 +158,7 @@
 		</div>	
 	</header>
 	<nav
-	class="fixed px-4 bottom-0 left-0 right-0 z-50 flex justify-around items-center bg-black text-yellow-400 border-t border-yellow-400 py-2 rounded-t-xl mobile:hidden"
+	class="fixed px-4 bottom-0 left-0 right-0 z-50 flex justify-between items-center bg-black text-yellow-400 border-t border-yellow-400 py-2 rounded-t-xl mobile:hidden"
 		class:opacity-0={$footerVisible}
 		class:opacity-100={!$footerVisible}
 	>
