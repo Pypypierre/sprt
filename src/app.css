@@ -13,11 +13,7 @@
 
 @layer base {
   section {
-    @apply w-full flex items-center py-20;
-  }
-
-  section {
-    @apply scroll-mt-32 laptop:scroll-mt-36;
+    @apply w-full h-[90%] flex items-center py-20 tablet:scroll-mt-32 laptop:scroll-mt-36;
   }
 
   [id="paraph"] {
