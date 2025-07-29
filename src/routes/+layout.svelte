@@ -80,7 +80,7 @@
 </svelte:head>
 
 {#if !$isFirstLoad}
-	<header class="bg-transparent mobile:fixed top-0 left-0 w-full z-50 laptop:transition-colors duration-500 transition-opacity text-white px-6 py-4 flex items-center"
+	<header class="hidden mobile:flex mobile:fixed top-0 left-0 w-full z-50 transition-colors duration-500 transition-opacity text-white px-6 py-4 flex items-center"
 		class:laptop:bg-black={$scrolled}
 	  	class:laptop:bg-transparent={!$scrolled}
 		class:opacity-0={$footerVisible}
@@ -107,7 +107,7 @@
 					</a>
 	    		</div>
 			</nav>		
-			<nav class="hidden tablet:flex laptop:hidden">
+			<nav class="hidden mobile:flex laptop:hidden">
 				<button
 					class="flex flex-col justify-center items-center w-10 h-10 relative z-50"
 					onclick={toggleMobileMenu}
@@ -153,12 +153,17 @@
 	    			</div>
 				</div>
 			</nav>
-			<nav class="flex mobile:hidden">
-			</nav>
 		</div>	
 	</header>
+	<div class="fixed top-0 left-0 w-full z-50 bg-transparent px-4 py-2 flex items-center justify-between mobile:flex mobile:hidden">
+		<div class="flex items-center space-x-4">
+			 <a href="/" class="block">
+				<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
+			</a>
+		</div>
+	</div>
 	<nav
-	class="fixed bottom-0 left-0 right-0 z-50 bg-black text-yellow-400 border-t border-yellow-400 py-2 px-4 rounded-t-xl mobile:hidden"
+	class="fixed bottom-0 left-0 right-0 z-50 bg-black text-white border-t border-yellow-400 py-2 px-4 rounded-t-xl mobile:hidden"
 	class:opacity-0={$footerVisible}
 	class:opacity-100={!$footerVisible}
 	>
