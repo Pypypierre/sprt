@@ -174,15 +174,17 @@
 				<a href="/#who_we_are" class="text-base">Qui sommes nous</a>
 				<a href="/contact" class="text-base">Nous contacter</a>
 			</div>
-			<button 
-			onclick={scrollToTop}
-			class="mb-2 mt-2 flex items-center justify-center w-12 h-12 rounded-full border border-[#F9B333] text-[#F9B333] hover:bg-[#F9B333] hover:text-black transition laptop:hidden"
-			aria-label="Retour en haut"
-			>
-				<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-					<path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/>
-				</svg>
-			</button>
+			{#if $scrolled}
+				<button 
+					onclick={scrollToTop}
+					class="mb-2 mt-2 flex items-center justify-center w-12 h-12 rounded-full border border-[#F9B333] text-[#F9B333] hover:bg-[#F9B333] hover:text-black transition laptop:hidden"
+					aria-label="Retour en haut"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/>
+					</svg>
+				</button>
+			{/if}
 		</div>
 	</nav>
 {/if}
