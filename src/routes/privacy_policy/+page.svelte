@@ -7,37 +7,37 @@
 			Dernière mise à jour : 24 septembre 2025
 		</h2>
 		<div class="flex flex-col md:items-center pt-5">
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
 					<a href="#Intro" class="hover:underline">Introduction</a>
 				</div>
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
 					<a href="#Covered_data" class="hover:underline">Quelles sont les données couvertes ?</a>
 				</div>
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
 					<a href="#Complaints" class="hover:underline">Réclamations</a>
 				</div>
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
 					<a href="#Use_of_personal_data" class="hover:underline">Fins auxquelles nous traitons les données à caractère personnel</a>
 				</div>
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
 					<a href="#Data_transfers" class="hover:underline">Transferts de données personnelles</a>
 				</div>
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
 					<a href="#Service_providers" class="hover:underline">Prestataires en assistance</a>
 				</div>
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
 					<a href="#Data_security" class="hover:underline">La sécurité</a>
 				</div>
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4"></div>
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4"></div>
 					<a href="#Data_update" class="hover:underline">Mise à jour de vos données</a>
 				</div>
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
 					<a href="#Data_retention" class="hover:underline">Conservation</a>
 				</div>
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
 					<a href="#Minors" class="hover:underline">Mineurs</a>
 				</div>
-				<div class="text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
+				<div class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed mt-4">
 					<a href="#Privacy_policy_changes" class="hover:underline">Modifications de cette déclaration de confidentialité</a>
 				</div>
 		</div>
@@ -49,19 +49,19 @@
 			Introduction
 		</h2>
 		<div class="flex flex-col md: items-center pt-5">
-			<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-10 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-10 text-justify">
 				La présente déclaration de confidentialité définit la collecte ainsi que l'utilisation de vos données à caractère personnel par SPRT Society et décrit les droits dont vous jouissez à l'égard de celles-ci.
 			</p>
-			<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-10 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-10 text-justify">
 				Dans la présente déclaration, « SPRT Society », « notre », « nos » et « nous » font référence à la société par actions simplifiée SPRT Society. La fonction de responsable du traitement de vos données personnelles est assurée par Jules Lohnherr, Président de SPRT Society.
 			</p>
-			<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-10 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-10 text-justify">
 				SPRT Society procède au traitement de données à caractère personnel à diverses fins. Nous recueillons ces données personnelles directement auprès de vous, par exemple, si vous souscrivez à notre service, si vous soumettez vos coordonnées pour recevoir des communications marketing de notre part, si vous soumettez des données liées à un événement pour assister à des événements SPRT Society. Enfin, nous collectons vos données personnelles par le biais de sources publiques, comme LinkedIn. La présente déclaration de confidentialité est destinée à couvrir toutes les situations susmentionnées.
 			</p>
-			<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-10 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-10 text-justify">
 				Cliquez sur notre politique de protection de données pour accéder à des informations plus détaillées sur les différentes fins auxquelles nous traitons les données personnelles, ainsi que sur la manière dont nous les traitons.
 			</p>
-			<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-10 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-10 text-justify">
 				Pour toute question concernant le traitement de vos données personnelles, ou si vous souhaitez contacter le délégué à la protection des données, veuillez nous contacter à l'adresse : contact@sprt-society.com.
 			</p>
 		</div>
