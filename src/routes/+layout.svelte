@@ -73,6 +73,7 @@
 
 <Loader show={!!$isFirstLoad} />
 
+
 <svelte:head>
 	<link rel="icon" type="image/jpg" href="/favicon.jpg" />
 	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
