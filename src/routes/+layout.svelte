@@ -182,7 +182,7 @@
 
 <footer id="footer" class="text-white px-6 py-4 flex flex-col items-center pb-5 pt-5">
 	<div class="w-[90%] flex items-center justify-between mx-auto pb-10">
-		<nav class="flex flex-wrap justify-center md:justify-start gap-x-8 gap-y-4 text-lg tracking-widest pt-10"> 
+		<nav class="flex flex-wrap justify-center md:justify-center gap-x-8 gap-y-4 text-lg tracking-widest pt-10"> 
 			<a href="/#concept" onclick={(event: Event) => scrollToValues(event, "concept")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Le concept</a>
 			<a href="/#values" onclick={(event: Event) => scrollToValues(event, "values")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nos valeurs</a>
 			<a href="/#who_we_are" onclick={(event: Event) => scrollToValues(event, "who_we_are")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Qui sommes nous</a>

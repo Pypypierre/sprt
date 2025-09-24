@@ -1,39 +1,10 @@
-<section id="intro-concept" class=" w-full py-40 laptop:py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-left max-w-7xl">
-		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
-			Novices ou experts, nous facilitons vos placements en cryptomonnaies
-		</h2>
-		<div class="content flex pt-10">
-			<div id="paraph" class="flex-1 md:text-xl space-y-6">
-				<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">
-					Le monde des cryptos est pour beaucoup synonyme de manque de transparence et de peu de lisibilité sur les statuts ou le mode de fonctionnement.
-				</p>
-				<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">
-					SPRT Society analyse le cours du Bitcoin et prend des trades pour son compte suivant une stratégie spécifique/ élabirées par l’équipe.
-				</p>
-				<p class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">
-					Cette stratégie vous est communiquée automatiquement par une clé API.
-				</p>
-			</div>
-			<div class="hidden laptop:flex-1 flex justify-center">
-				<img src="concept/intro-concept.jpg" alt="Concept finance illustation" class="w-full max-w-md rounded-lg shadow-lg mt-6 md:mt-0" />
-			</div>
-		</div>
-		<div class="text-left pt-10">
-			<a href="#strategies" class="inline-block  mt-6 px-6 py-3 border border-white text-white rounded-full hover:bg-[#F9B333] hover:text-black transition">
-				Comment cela fonctionne ?
-			</a>
-		</div>
-	</div>
-</section>
-
-<section id="strategies" class="w-full py-20 bg-[#181818] text-white">
+<section id="strategies" class="w-full py-40 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Notre stratégie, étape par étape
 		</h2>
 		<div class="flex flex-wrap md:flex-nowrap items-center pt-5">
-			<div class="hidden laptop:flex-1 flex justify-center">
+			<div class="hidden md:flex laptop:flex-1 justify-center">
 				<img src="concept/strategies.png" alt="Screenshot trading app" class="w-full max-w-md rounded-lg shadow-lg mt-6 md:mt-0" />
 			</div>
 			<lu id="paraph" class="flex-1 md:text-xl space-y-6">
@@ -57,7 +28,7 @@
   </div>
 </section>
 
-<section id="api-key" class="w-full py-20 bg-[#181818] text-white">
+<section id="api-key" class="w-full py-10 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-left max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			La clé API,<br> de A à Z
@@ -80,7 +51,7 @@
 					Les trades qui se placent sur votre compte sont ceux que nous plaçons sur notre compte
 				</li>
 			</lu>
-			<div class="hidden laptop:flex-1 flex justify-center">
+			<div class="hidden md:flex laptop:flex-1 justify-center">
 				<img src="concept/api-key.png" alt="Trading values board" class="w-full max-w-md rounded-lg shadow-lg mt-6 md:mt-0" />
 			</div>
 		</div>
@@ -109,7 +80,7 @@
 			</div>
 		</div>
 		<div class="text-center pt-10">
-			<a href="/contact" class="inline-block  mt-6 px-6 py-3 border border-white text-white rounded-full hover:bg-[#F9B333] hover:text-black transition">
+			<a href="/contact" class="inline-block  mt-6 px-6 py-3 border border-[#F9B333] bg-[#F9B333] text-black rounded-full hover:bg-black hover:text-white transition">
 				Nous contacter
 			</a>
 		</div>
