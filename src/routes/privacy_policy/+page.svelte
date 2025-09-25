@@ -1,7 +1,3 @@
-<script>
-	import { linear } from "svelte/easing";
-
-</script>
 <style>
 ul{
   list-style-type:none;
@@ -73,19 +69,19 @@ li::before{
 			Introduction
 		</h2>
 		<div class="flex flex-col md: items-center pt-5">
-			<p class="text-xs tablet:text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
 				La présente déclaration de confidentialité définit la collecte ainsi que l'utilisation de vos données à caractère personnel par SPRT Society et décrit les droits dont vous jouissez à l'égard de celles-ci.
 			</p>
-			<p class="text-xs tablet:text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
 				Dans la présente déclaration, « SPRT Society », « notre », « nos » et « nous » font référence à la société par actions simplifiée SPRT Society. La fonction de responsable du traitement de vos données personnelles est assurée par Jules Lohnherr, Président de SPRT Society.
 			</p>
-			<p class="text-xs tablet:text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
 				SPRT Society procède au traitement de données à caractère personnel à diverses fins. Nous recueillons ces données personnelles directement auprès de vous, par exemple, si vous souscrivez à notre service, si vous soumettez vos coordonnées pour recevoir des communications marketing de notre part, si vous soumettez des données liées à un événement pour assister à des événements SPRT Society. Enfin, nous collectons vos données personnelles par le biais de sources publiques, comme LinkedIn. La présente déclaration de confidentialité est destinée à couvrir toutes les situations susmentionnées.
 			</p>
-			<p class="text-xs tablet:text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
 				Cliquez sur notre politique de protection de données pour accéder à des informations plus détaillées sur les différentes fins auxquelles nous traitons les données personnelles, ainsi que sur la manière dont nous les traitons.
 			</p>
-			<p class="text-xs tablet:text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
 				Pour toute question concernant le traitement de vos données personnelles, ou si vous souhaitez contacter le délégué à la protection des données, veuillez nous contacter à l'adresse : contact@sprt-society.com.
 			</p>
 		</div>
