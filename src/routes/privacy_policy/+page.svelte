@@ -258,7 +258,7 @@ li::before{
 				Notre intérêt légitime à développer et à améliorer notre site ainsi que votre expérience utilisateur ;
 			</li>
 		</ul>
-		<h3 class="text-2xl font-bold mb-4 text-center">
+		<h3 class="text-2xl font-bold mb-4 text-center mt-10">
 			2. Clients
 		</h3>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
@@ -353,7 +353,7 @@ li::before{
 				Notre intérêt légitime à protéger SPRT Society contre toute utilisation inopinée de produits d’activités criminelles ou participation à quelque autre activité illégale ou frauduleuse que ce soit (telle que le terrorisme).
 			</li>
 		</ul>
-		<h3 class="text-2xl font-bold mb-4 text-center">
+		<h3 class="text-2xl font-bold mb-4 text-center  mt-10">
 			3. Contacts de nos systèmes de gestion de la relation client (CRM)
 		</h3>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
@@ -390,7 +390,7 @@ li::before{
 				Notre intérêt légitime à entretenir des relations avec nos contacts et à fournir des informations sur SPRT Society, nos services et les événements que nous organisons.
 			</li>
 		</ul>
-		<h3 class="text-2xl font-bold mb-4 text-center">
+		<h3 class="text-2xl font-bold mb-4 text-center mt-10">
 			4. Utilisateurs de nos réseaux sociaux
 		</h3>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
@@ -405,7 +405,7 @@ li::before{
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
 			Des fonctions du service Instagram ou LinkedIn sont installées sur notre Site. Si vous êtes connecté à votre compte Instagram ou LinkedIn, vous pouvez cliquer sur le bouton correspondant pour lier le contenu de nos pages à votre profil. En d’autres termes, Instagram ou LinkedIn peuvent associer vos visites sur nos pages à votre compte utilisateur. Si vous n’êtes pas connecté à votre compte, vous pouvez ouvrir la page de connexion au réseau en question et saisir vos identifiants en cliquant sur un bouton Instagram ou LinkedIn. Nous tenons à souligner que nous ne connaissons en aucun cas le contenu des données transmises à Instagram ni la façon dont celles-ci sont utilisées.
 		</p>
-		<h3 class="text-2xl font-bold mb-4 text-center">
+		<h3 class="text-2xl font-bold mb-4 text-center mt-10">
 			5. Personnes correspondant avec SPRT Society par courrier électronique
 		</h3>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
