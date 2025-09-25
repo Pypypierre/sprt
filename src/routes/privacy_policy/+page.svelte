@@ -15,7 +15,7 @@ li::before{
 </style>
 
 <section id="Summary" class="py-30 md:w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-center max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-center max-w-[80%]">
 		<h1 class="text-lg mb-4 md:text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Politique de confidentialité
 		</h1>
@@ -64,7 +64,7 @@ li::before{
 </section>
 
 <section id="Intro" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Introduction
 		</h2>
@@ -89,7 +89,7 @@ li::before{
 </section>
 
 <section id="Covered_data" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Quelles sont les données couvertes ? 
 		</h2>
@@ -105,7 +105,7 @@ li::before{
 </section>
 
 <section id="Intro" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Vos droits à l'égard de vos données personnelles
 		</h2>
@@ -144,7 +144,7 @@ li::before{
 </section>
 
 <section id="Complaints" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Réclamations
 		</h2>
@@ -160,7 +160,7 @@ li::before{
 </section>
 
 <section id="Use_of_personal_data" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Fins auxquelles nous traitons les données à caractère personnel
 		</h2>
@@ -419,7 +419,7 @@ li::before{
 </section>
 	
 	<section id="Data_transfers" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Transferts de données personnelles
 		</h2>
@@ -433,7 +433,7 @@ li::before{
 </section>
 
 <section id="Service_providers" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Prestataires en assistance
 		</h2>
@@ -447,7 +447,7 @@ li::before{
 </section>
 
 <section id="Data_security" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			La sécurité
 		</h2>
@@ -458,7 +458,7 @@ li::before{
 </section>
 
 <section id="Data_update" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Mise à jour de vos données
 		</h2>
@@ -469,7 +469,7 @@ li::before{
 </section>
 
 <section id="Data_retention" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Conservation
 		</h2>
@@ -483,7 +483,7 @@ li::before{
 </section>
 
 <section id="Minors" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Mineurs
 		</h2>
@@ -494,7 +494,7 @@ li::before{
 </section>
 
 <section id="Privacy_policy_changes" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
+	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Modifications de cette déclaration de confidentialité
 		</h2>
