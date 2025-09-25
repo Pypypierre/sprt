@@ -90,7 +90,7 @@
 <section id="Access_Conditions" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
 		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
-			CONDITION D'ACCES
+			Conditions d'accès
 		</h2>
 		<div class="pt-5 text-justify">
 			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
@@ -121,7 +121,7 @@
 <section id="General_Warning" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
 		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
-			MISE EN GARDE GENERALE
+			Mise en garde générale
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4 text-justify">
 			Les informations contenues sur le Site ne constituent en aucun cas, une offre de produits et/ou de services, ni une offre et/ou une ou de tout autre produit de gestion. En conséquence, toute souscription à un service ne peut se faire que dans un cadre défini par un accord contractuel ayant fait l'objet d'une acceptation préalable, par la Société.
@@ -275,62 +275,30 @@
 	</div>
 </section>
 
-<section id="Personal_data" class="w-full py-20 bg-[#181818] text-white">
+<section id="Privacy_policy_changes" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
 		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
-			Données personnelles
+			Modifications de cette déclaration de confidentialité
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
 			Vous pouvez visiter librement ce site Web et consulter des informations sur l’organisation et les services de SPRT Society sans devoir fournir pour ce faire des données personnelles. Seul la prise de contact sur ce site Web nécessite l'introduction de données personnelles. Chaque fois que vous communiquez des données personnelles, SPRT Society traite celles-ci conformément à la politique de protection de données personnelles consultable ici : <a href="/personal_information_protection_policies" class="text-[#F9B333] underline">politique de protection de données personnelles</a> et aux obligations légales relatives au traitement des données personnelles.
 		</p>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			L'utilisateur qui communique ses données personnelles autorise expressément SPRT Society à traiter ces données pour les fins mentionnées dans la politique de confidentialité et la politique de protection des données personnelles.
+			
 		</p>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			Conformément aux articles 39 et suivants de la loi n° 78-17 du 6 janvier 1978 modifiée en 2004 relative à l’informatique, aux fichiers et aux libertés, toute personne peut obtenir communication et, le cas échéant, rectification ou suppression des informations la concernant, en adressant un mail à communication : <a href="mailto:contact@sprt-socity.com" class="text-[#F9B333] underline">contact@sprt-socity.com</a>.
-		</p>
-	</div>
-</section>
-
-<section id="Dispute_resolution" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
-			En cas de litige
-		</h2>
-		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			En vue de trouver ensemble une solution à tout litige qui surviendrait dans l'exécution du service, les contractants conviennent de se réunir en présentiel ou à distance dans les trois (3) jours à compter de la réception d'une lettre recommandée avec demande d'avis de réception, notifiée par l'une des deux parties à l’autre.
-		</p>
-		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			La présente procédure de règlement amiable constitue un préalable obligatoire à l'introduction d'une action en justice entre les Parties. Toute action introduite en Justice en violation de la présente clause sera déclarée irrecevable.
-		</p>
-		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			Toutefois, si au terme d'un délai de trois (3) jours, les Parties n'arrivaient pas à se mettre d'accord sur un compromis ou une solution, le litige sera alors soumis à la compétence juridictionnelle désignée ci-après.
-		</p>
-		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			En cas d’échec de la procédure de règlement amiable telle qu’énoncée ci-avant, les Parties conviennent de désigner d'un commun accord un Médiateur. Si au terme d'un délai de trois (3) jours, les Parties n'arrivaient pas à se mettre d'accord sur le choix de celui-ci, le Médiateur serait désigné par le Président du Tribunal Judiciaire de Paris, statuant en référé ou sur requête, à la demande de la partie la plus diligente.
-		</p>
-		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			Ce Médiateur réunira les Parties, effectuera toutes constatations utiles et les informera des conséquences de leurs positions respectives. Il devra leur proposer, dans un délai de trois (3) jours, les éléments d'une solution de nature à régler leur différend, tout en sauvegardant leurs intérêts légitimes. Cette proposition ne sera ni obligatoire, ni exécutoire.
-		</p>
-		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			Durant le processus de médiation, le délai de prescription est suspendu ; ainsi, au-delà de six (6) jours, la tentative de médiation sera-t-elle réputée achevée. D'autre part, en vertu de l'article 1531 du Code de procédure civile, le Médiateur est soumis à une obligation de confidentialité.
-		</p>
-		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			Les frais et honoraires de ce Médiateur seront répartis par moitié entre les Parties.
-		</p>
-		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			En cas d’échec de la procédure de médiation telle qu’énoncée ci-avant, tous les litiges auxquels les présentes et les accords qui en découlent pourraient donner lieu, concernant tant leur validité, leur interprétation, leur exécution, leur résolution, leurs conséquences et leurs suites pourront être soumis aux tribunaux compétents dans les conditions de droit commun.
+			
 		</p>
 	</div>
 </section>
 
-<section id="Droit applicable" class="w-full py-20 bg-[#181818] text-white">
+<section id="Privacy_policy_changes" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
 		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
-			Droit applicable
+			Modifications de cette déclaration de confidentialité
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
-			Ce site Web est régi par le droit français et les tribunaux français sont seuls appelés à connaître de tout litige pouvant survenir en relation avec ce site Web.
+			Nous mettons régulièrement à jour la présente déclaration de confidentialité afin de refléter les modifications apportées à nos pratiques et à nos services. Lorsque des modifications sont apportées, nous modifions la date de « dernière mise à jour » en haut de la présente déclaration de confidentialité. Si nous apportons des modifications importantes à la manière dont nous recueillons, utilisons et partageons des données personnelles, nous vous en informons sur le site Web de façon bien visible. Nous vous recommandons de consulter cette page régulièrement pour rester informé des éventuels changements apportés à la présente déclaration de confidentialité.
 		</p>
 	</div>
 </section>

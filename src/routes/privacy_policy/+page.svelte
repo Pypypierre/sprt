@@ -258,171 +258,171 @@ li::before{
 				Notre intérêt légitime à développer et à améliorer notre site ainsi que votre expérience utilisateur ;
 			</li>
 		</ul>
-	</div>
-	<h3 class="text-2xl font-bold mb-4 text-center">
+		<h3 class="text-2xl font-bold mb-4 text-center">
 			2. Clients
-	</h3>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Lorsque vous nous sollicitez pour la prestation de services professionnels, nous collectons et utilisons des données personnelles si nous disposons d’un motif commercial valable à cet égard, en relation avec ces services. Pour une présentation de nos services, veuillez remplir le formulaire dans <a href="/contact" class="text-[#F9B333] underline">contactez-nous</a>.
-	</p>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Dans le cadre de la prestation de services professionnels à ses clients, SPRT Society traite également les données personnelles d’individus qui ne sont pas des clients directs (des employés, des clients ou les fournisseurs de nos clients, par exemple). Pour de plus amples informations, consultez la section « Personnes dont nous recueillons les données personnelles dans le cadre de la prestation de services à nos clients ».
-	</p>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		La majorité des données personnelles que nous recueillons et utilisons pour la prestation de nos services sont fournies volontairement par (ou collectées par nos soins à partir de sources tierces à la demande de) nos clients. De ce fait, si vous êtes un client de SPRT Society, les données personnelles que nous recueillons et utilisons seront généralement évidentes. Ces informations incluent :
-	</p>
-	<ul class="flex flex-col items-start pt-5 text-justify">
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Des informations de base, telles que votre nom, l’entreprise pour laquelle vous travaillez, votre poste et votre relation avec une personne en particulier ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Des coordonnées, telles que votre adresse postale, votre adresse électronique et vos numéros de téléphone ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Des informations financières, telles que des données de paiement ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Toute autre donnée personnelle à votre égard ou à celui de tiers que vous nous fournissez dans le but de recevoir nos services.
-		</li>
-	</ul>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Nous utilisons ces informations :
-	</p>
-	<ul class="flex flex-col items-start pt-5 text-justify">
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Pour vous fournir des services ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Pour gérer nos rapports et entretenir des relations contractuelles ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			À des fins comptables et fiscales ; 
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			À des fins de développement marketing et commercial ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Pour satisfaire à nos obligations juridiques et réglementaires ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Pour établir, exercer ou défendre des droits juridiques :
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			À des fins d’archivage et statistiques.
-		</li>
-	</ul>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		En outre, nous traitons des informations de base et d’identification dans le cadre de nos procédures d’acceptation des clients, des processus financiers, administratifs et marketing, y compris des contrôles concernant la lutte contre le blanchiment d’argent, les aspects financiers liés à l'image, et pour satisfaire à toute autre obligation juridique ou réglementaire qui nous incombe.
-	</p>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Ces contrôles peuvent inclure ;
-	</p>
-	<ul class="flex flex-col items-start pt-5 text-justify">
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			La vérification d’identité (attestation d’identité et de domicile) ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			La propriété effective de sociétés et d’autres entités juridiques ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Des contrôles en matière de lutte contre le blanchiment d’argent, d’activités criminelles et de financement du terrorisme ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Des contrôles sur l’image médiatique ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Des contrôles des listes de sanctions gouvernementales .
-		</li>
-	</ul>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Ces contrôles sont effectués pour des raisons juridiques, réglementaires ou commerciales et doivent être renouvelés tout au long de notre engagement. Dans le cadre de ces contrôles, nous sommes tenus de traiter des catégories particulières de données à caractère personnel (par exemple, pour collecter des informations sur des condamnations pénales, si la législation en matière de lutte contre le blanchiment d’argent l’exige). Il est important que vous nous fournissiez toutes les informations et tous les documents requis, faute de quoi la prestation de nos services sera affectée.
-	</p>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Les bases juridiques pour le traitement des données personnelles des clients sont :
-	</p>
-	<ul class="flex flex-col items-start pt-5 text-justify">
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			L’exécution d’un contrat ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			La conformité à une obligation juridique ou réglementaire ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Notre intérêt légitime à vous fournir des services transparents, cohérents et de grande qualité ainsi qu’à garantir le paiement ponctuel des frais, coûts y afférents ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Notre intérêt légitime à protéger SPRT Society contre toute utilisation inopinée de produits d’activités criminelles ou participation à quelque autre activité illégale ou frauduleuse que ce soit (telle que le terrorisme).
-		</li>
-	</ul>
-	<h3 class="text-2xl font-bold mb-4 text-center">
+		</h3>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Lorsque vous nous sollicitez pour la prestation de services professionnels, nous collectons et utilisons des données personnelles si nous disposons d’un motif commercial valable à cet égard, en relation avec ces services. Pour une présentation de nos services, veuillez remplir le formulaire dans <a href="/contact" class="text-[#F9B333] underline">contactez-nous</a>.
+		</p>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Dans le cadre de la prestation de services professionnels à ses clients, SPRT Society traite également les données personnelles d’individus qui ne sont pas des clients directs (des employés, des clients ou les fournisseurs de nos clients, par exemple). Pour de plus amples informations, consultez la section « Personnes dont nous recueillons les données personnelles dans le cadre de la prestation de services à nos clients ».
+		</p>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			La majorité des données personnelles que nous recueillons et utilisons pour la prestation de nos services sont fournies volontairement par (ou collectées par nos soins à partir de sources tierces à la demande de) nos clients. De ce fait, si vous êtes un client de SPRT Society, les données personnelles que nous recueillons et utilisons seront généralement évidentes. Ces informations incluent :
+		</p>
+		<ul class="flex flex-col items-start pt-5 text-justify">
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Des informations de base, telles que votre nom, l’entreprise pour laquelle vous travaillez, votre poste et votre relation avec une personne en particulier ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Des coordonnées, telles que votre adresse postale, votre adresse électronique et vos numéros de téléphone ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Des informations financières, telles que des données de paiement ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Toute autre donnée personnelle à votre égard ou à celui de tiers que vous nous fournissez dans le but de recevoir nos services.
+			</li>
+		</ul>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Nous utilisons ces informations :
+		</p>
+		<ul class="flex flex-col items-start pt-5 text-justify">
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Pour vous fournir des services ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Pour gérer nos rapports et entretenir des relations contractuelles ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				À des fins comptables et fiscales ; 
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				À des fins de développement marketing et commercial ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Pour satisfaire à nos obligations juridiques et réglementaires ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Pour établir, exercer ou défendre des droits juridiques :
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				À des fins d’archivage et statistiques.
+			</li>
+		</ul>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			En outre, nous traitons des informations de base et d’identification dans le cadre de nos procédures d’acceptation des clients, des processus financiers, administratifs et marketing, y compris des contrôles concernant la lutte contre le blanchiment d’argent, les aspects financiers liés à l'image, et pour satisfaire à toute autre obligation juridique ou réglementaire qui nous incombe.
+		</p>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Ces contrôles peuvent inclure ;
+		</p>
+		<ul class="flex flex-col items-start pt-5 text-justify">
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				La vérification d’identité (attestation d’identité et de domicile) ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				La propriété effective de sociétés et d’autres entités juridiques ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Des contrôles en matière de lutte contre le blanchiment d’argent, d’activités criminelles et de financement du terrorisme ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Des contrôles sur l’image médiatique ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Des contrôles des listes de sanctions gouvernementales .
+			</li>
+		</ul>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Ces contrôles sont effectués pour des raisons juridiques, réglementaires ou commerciales et doivent être renouvelés tout au long de notre engagement. Dans le cadre de ces contrôles, nous sommes tenus de traiter des catégories particulières de données à caractère personnel (par exemple, pour collecter des informations sur des condamnations pénales, si la législation en matière de lutte contre le blanchiment d’argent l’exige). Il est important que vous nous fournissiez toutes les informations et tous les documents requis, faute de quoi la prestation de nos services sera affectée.
+		</p>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Les bases juridiques pour le traitement des données personnelles des clients sont :
+		</p>
+		<ul class="flex flex-col items-start pt-5 text-justify">
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				L’exécution d’un contrat ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				La conformité à une obligation juridique ou réglementaire ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Notre intérêt légitime à vous fournir des services transparents, cohérents et de grande qualité ainsi qu’à garantir le paiement ponctuel des frais, coûts y afférents ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Notre intérêt légitime à protéger SPRT Society contre toute utilisation inopinée de produits d’activités criminelles ou participation à quelque autre activité illégale ou frauduleuse que ce soit (telle que le terrorisme).
+			</li>
+		</ul>
+		<h3 class="text-2xl font-bold mb-4 text-center">
 			3. Contacts de nos systèmes de gestion de la relation client (CRM)
-	</h3>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Nous traitons des données personnelles concernant les contacts (clients anciens, actuels et potentiels, personnes employées par ou associées à de tels clients et autres contacts commerciaux, tels que des anciens collaborateurs, des consultants, des régulateurs et des journalistes) de nos systèmes CRM. Ces systèmes CRM contribuent aux opérations marketing de SPRT Society ainsi qu’au bon fonctionnement de nos services.
-	</p>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Dans nos systèmes CRM, nous traitons les catégories de données personnelles suivantes :
-	</p>
-	<ul class="flex flex-col items-start pt-5 text-justify">
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Nom, intitulé du poste, adresse postale, adresse électronique, numéros de téléphone et de fax ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Marketing et préférences des utilisateurs, y compris si la personne a choisi de recevoir des communications marketing;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Les réponses aux invitations, les activités de lecture et les confirmations de participation à des événements.
-		</li>
-	</ul>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Nous ne collectons pas intentionnellement de données sensibles, sauf si vous nous fournissez de telles données (par exemple, un régime alimentaire particulier qui révèle votre appartenance religieuse ou d’éventuelles allergies alimentaires) dans le cadre de votre participation à nos événements.
-	</p>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Les données des contacts qui n’ont pas interagi activement avec SPRT Society au cours des 18 derniers mois seront supprimées de nos systèmes CRM. Si vous vous êtes désabonné des publications SPRT Society, vos coordonnées de base resteront sur notre liste de désabonnement.
-	</p>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Les bases juridiques pour le traitement des données personnelles des contacts professionnels sont :
-	</p>
-	<ul class="flex flex-col items-start pt-5 text-justify">
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Le consentement exprès de ceux-ci ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Notre intérêt légitime à entretenir des relations avec nos contacts et à fournir des informations sur SPRT Society, nos services et les événements que nous organisons.
-		</li>
-	</ul>
-	<h3 class="text-2xl font-bold mb-4 text-center">
+		</h3>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Nous traitons des données personnelles concernant les contacts (clients anciens, actuels et potentiels, personnes employées par ou associées à de tels clients et autres contacts commerciaux, tels que des anciens collaborateurs, des consultants, des régulateurs et des journalistes) de nos systèmes CRM. Ces systèmes CRM contribuent aux opérations marketing de SPRT Society ainsi qu’au bon fonctionnement de nos services.
+		</p>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Dans nos systèmes CRM, nous traitons les catégories de données personnelles suivantes :
+		</p>
+		<ul class="flex flex-col items-start pt-5 text-justify">
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Nom, intitulé du poste, adresse postale, adresse électronique, numéros de téléphone et de fax ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Marketing et préférences des utilisateurs, y compris si la personne a choisi de recevoir des communications marketing;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Les réponses aux invitations, les activités de lecture et les confirmations de participation à des événements.
+			</li>
+		</ul>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Nous ne collectons pas intentionnellement de données sensibles, sauf si vous nous fournissez de telles données (par exemple, un régime alimentaire particulier qui révèle votre appartenance religieuse ou d’éventuelles allergies alimentaires) dans le cadre de votre participation à nos événements.
+		</p>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Les données des contacts qui n’ont pas interagi activement avec SPRT Society au cours des 18 derniers mois seront supprimées de nos systèmes CRM. Si vous vous êtes désabonné des publications SPRT Society, vos coordonnées de base resteront sur notre liste de désabonnement.
+		</p>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Les bases juridiques pour le traitement des données personnelles des contacts professionnels sont :
+		</p>
+		<ul class="flex flex-col items-start pt-5 text-justify">
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Le consentement exprès de ceux-ci ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Notre intérêt légitime à entretenir des relations avec nos contacts et à fournir des informations sur SPRT Society, nos services et les événements que nous organisons.
+			</li>
+		</ul>
+		<h3 class="text-2xl font-bold mb-4 text-center">
 			4. Utilisateurs de nos réseaux sociaux
-	</h3>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		SPRT Society utilise diverses plateformes de réseaux sociaux, à des fins de prospection ou marketing, par exemple. Nous utilisons les réseaux sociaux pour vous fournir un accès facile aux informations pertinentes concernant SPRT Society ainsi que les événements que nous organisons, et pour promouvoir nos services et notre marque.
-	</p>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Si l’organisation SPRT Society est garante du contenu publié sur les plateformes de réseaux sociaux, elle ne sera en aucun cas responsable de la gestion de ces plateformes (comme la création de statistiques sur les utilisateurs ou le placement de cookies). Lorsque vous utilisez ces plateformes, vous êtes tenu de respecter les conditions juridiques et de confidentialité imposées par les fournisseurs de plateformes de réseaux sociaux. Ces fournisseurs collectent des données personnelles vous concernant, notamment des données statistiques et analytiques relatives à votre utilisation des plateformes de réseaux sociaux, telles qu’une synthèse des pages auxquelles vous avez accédé, des mentions « J’aime », des visites récentes, des publications que vous mettez en ligne ou jugez intéressantes. Si vous avez besoin d’accéder à ces données ou souhaitez invoquer l’un de vos autres droits (comme le droit d’opposition au traitement de vos données), veuillez contacter le fournisseur de la plateforme de réseau social. Certains fournisseurs de réseaux sociaux nous transmettent des données agrégées pertinentes pour nos pages, telles que le nombre de mentions « J’aime » pour notre contenu ou le nombre de publications, de visiteurs de nos sites, de photos téléchargées ou de liens ouverts.
-	</p>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Sur notre site, nous exécutons des modules de réseaux sociaux. Lorsque vous consultez une page qui affiche un ou plusieurs de ces boutons, votre navigateur établit une connexion directe avec le serveur de réseau social correspondant et charge le bouton à partir de cet emplacement. En parallèle, le fournisseur du réseau social sera informé que la page correspondante de notre site a été consultée. Nous n’exerçons aucune influence sur les données collectées par les fournisseurs de réseaux sociaux à partir des boutons. Pour éviter cela, veuillez-vous déconnecter de vos comptes de réseaux sociaux avant de consulter notre site. Les fournisseurs de réseaux sociaux installent également des cookies, sauf si vous avez désactivé l’acceptation et le stockage de cookies dans les paramètres de votre navigateur.
-	</p>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Des fonctions du service Instagram ou LinkedIn sont installées sur notre Site. Si vous êtes connecté à votre compte Instagram ou LinkedIn, vous pouvez cliquer sur le bouton correspondant pour lier le contenu de nos pages à votre profil. En d’autres termes, Instagram ou LinkedIn peuvent associer vos visites sur nos pages à votre compte utilisateur. Si vous n’êtes pas connecté à votre compte, vous pouvez ouvrir la page de connexion au réseau en question et saisir vos identifiants en cliquant sur un bouton Instagram ou LinkedIn. Nous tenons à souligner que nous ne connaissons en aucun cas le contenu des données transmises à Instagram ni la façon dont celles-ci sont utilisées.
-	</p>
-	<h3 class="text-2xl font-bold mb-4 text-center">
+		</h3>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			SPRT Society utilise diverses plateformes de réseaux sociaux, à des fins de prospection ou marketing, par exemple. Nous utilisons les réseaux sociaux pour vous fournir un accès facile aux informations pertinentes concernant SPRT Society ainsi que les événements que nous organisons, et pour promouvoir nos services et notre marque.
+		</p>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Si l’organisation SPRT Society est garante du contenu publié sur les plateformes de réseaux sociaux, elle ne sera en aucun cas responsable de la gestion de ces plateformes (comme la création de statistiques sur les utilisateurs ou le placement de cookies). Lorsque vous utilisez ces plateformes, vous êtes tenu de respecter les conditions juridiques et de confidentialité imposées par les fournisseurs de plateformes de réseaux sociaux. Ces fournisseurs collectent des données personnelles vous concernant, notamment des données statistiques et analytiques relatives à votre utilisation des plateformes de réseaux sociaux, telles qu’une synthèse des pages auxquelles vous avez accédé, des mentions « J’aime », des visites récentes, des publications que vous mettez en ligne ou jugez intéressantes. Si vous avez besoin d’accéder à ces données ou souhaitez invoquer l’un de vos autres droits (comme le droit d’opposition au traitement de vos données), veuillez contacter le fournisseur de la plateforme de réseau social. Certains fournisseurs de réseaux sociaux nous transmettent des données agrégées pertinentes pour nos pages, telles que le nombre de mentions « J’aime » pour notre contenu ou le nombre de publications, de visiteurs de nos sites, de photos téléchargées ou de liens ouverts.
+		</p>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Sur notre site, nous exécutons des modules de réseaux sociaux. Lorsque vous consultez une page qui affiche un ou plusieurs de ces boutons, votre navigateur établit une connexion directe avec le serveur de réseau social correspondant et charge le bouton à partir de cet emplacement. En parallèle, le fournisseur du réseau social sera informé que la page correspondante de notre site a été consultée. Nous n’exerçons aucune influence sur les données collectées par les fournisseurs de réseaux sociaux à partir des boutons. Pour éviter cela, veuillez-vous déconnecter de vos comptes de réseaux sociaux avant de consulter notre site. Les fournisseurs de réseaux sociaux installent également des cookies, sauf si vous avez désactivé l’acceptation et le stockage de cookies dans les paramètres de votre navigateur.
+		</p>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Des fonctions du service Instagram ou LinkedIn sont installées sur notre Site. Si vous êtes connecté à votre compte Instagram ou LinkedIn, vous pouvez cliquer sur le bouton correspondant pour lier le contenu de nos pages à votre profil. En d’autres termes, Instagram ou LinkedIn peuvent associer vos visites sur nos pages à votre compte utilisateur. Si vous n’êtes pas connecté à votre compte, vous pouvez ouvrir la page de connexion au réseau en question et saisir vos identifiants en cliquant sur un bouton Instagram ou LinkedIn. Nous tenons à souligner que nous ne connaissons en aucun cas le contenu des données transmises à Instagram ni la façon dont celles-ci sont utilisées.
+		</p>
+		<h3 class="text-2xl font-bold mb-4 text-center">
 			5. Personnes correspondant avec SPRT Society par courrier électronique
-	</h3>
-	<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-		Les bases juridiques pour le traitement des données personnelles de personnes correspondant avec SPRT Society par voie électronique sont :
-	</p>
-	<ul class="flex flex-col items-start pt-5 text-justify">
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Notre intérêt légitime à protéger notre infrastructure informatique contre les accès non autorisés ou les fuites de données ;
-		</li>
-		<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-			Notre intérêt légitime à analyser le trafic de messagerie.
-		</li>
-	</ul>
+		</h3>
+		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+			Les bases juridiques pour le traitement des données personnelles de personnes correspondant avec SPRT Society par voie électronique sont :
+		</p>
+		<ul class="flex flex-col items-start pt-5 text-justify">
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Notre intérêt légitime à protéger notre infrastructure informatique contre les accès non autorisés ou les fuites de données ;
+			</li>
+			<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Notre intérêt légitime à analyser le trafic de messagerie.
+			</li>
+		</ul>
+	</div>
 </section>
-
-<section id="Data_transfers" class="w-full py-20 bg-[#181818] text-white">
+	
+	<section id="Data_transfers" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Transferts de données personnelles
