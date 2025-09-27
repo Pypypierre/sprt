@@ -4,6 +4,7 @@
 	import { goto } from '$app/navigation';
   	import { writable } from 'svelte/store';
 	import Loader from '$lib/components/Loader.svelte';
+	import { browser } from '$app/environment';
 
 	const scrolled = writable(false);
 	const footerVisible = writable(false);
@@ -26,7 +27,13 @@
     	window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
-	onMount(() => {
+	onMount(async () => {
+	// Initialize Flowbite
+	if (browser) {
+		const { initFlowbite } = await import('flowbite');
+		initFlowbite();
+	}
+
 	const handleScroll = () => {
 		scrolled.set(window.scrollY > 20);
 	};

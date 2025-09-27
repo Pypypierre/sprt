@@ -1,3 +1,29 @@
+<script>
+  import { Table, TableHead, TableHeadCell, TableBody, TableBodyRow, TableBodyCell } from "flowbite-svelte";
+
+  let tab = false;
+  const tab_message = ["Afficher l'annexe", "Masquer l'annexe"];
+  const showTab = () => {
+	tab = !tab;
+  };
+  const items = [
+	{
+	  name: "Le droit de réclamation",
+	  definition: [
+		"Vous avez le droit de saisir à tout moment le Délégué à la protection des données SPRT Society si vous avez une interrogation quant au traitement que nous faisons de vos données ou si vous êtes en désaccord avec ledit traitement.",
+		"Il est rappelé que, dans la mesure où la réponse qui vous serait faite ne vous donnerait pas satisfaction, vous disposez de la faculté de vous adresser à l’autorité de régulation en matière de traitement des données personnelles (la CNIL).",
+		"Vous avez le droit d’obtenir des informations claires, transparentes et compréhensibles sur la manière dont nous utilisons vos données à caractère personnel et sur l’exercice de vos droits."
+	  ]
+	},
+    { name: "Le droit d'accès et de rectification", definition: "" },
+    { name: "Le droit à l'effacement (« droit à l’oubli »)", definition: ""},
+    { name: "Le droit à la limitation du traitement", definition: "" },
+    { name: "Droit d'opposition au traitement", definition: "Vous pouvez vous opposer à toute utilisation de vos données personnelles si vous pensez que vos droits et libertés fondamentaux à la protection de vos données l’emportent sur notre intérêt légitime à utiliser ces données. Si vous nous présentez une objection, il se peut que nous continuions à utiliser lesdites données personnelles si nous pouvons démontrer que nous avons des intérêts légitimes impérieux pour l’utilisation de ces données."},
+    { name: "Le droit de définir des directives quant au sort de vos données après votre décès", definition: "Vous pouvez définir des directives relatives à la conservation, à l'effacement et à la communication de vos données personnelles après votre décès. Ces directives sont générales ou particulières. Les directives générales sont enregistrées auprès d’un tiers de confiance. Les directives particulières le sont auprès du Responsable de traitement tel que défini en tête de la présente Politique."},
+    { name: "Le droit d’obtenir une copie de vos données personnelles", definition: "Vous pouvez nous demander de vous fournir une copie de vos données personnelles dans un format structuré, couramment utilisé et lisible sur ordinateur, ou vous pouvez nous demander de les transférer directement à un autre Responsable de traitement (par exemple, une autre société). Vous ne pouvez exercer ce droit que lorsque nous utilisons vos données personnelles dans le cadre d’un contrat avec vous, ou lorsque nous vous avons demandé votre consentement pour utiliser vos données personnelles. Ce droit ne s’applique pas aux données personnelles que nous détenons ou traitons en vertu de notre intérêt légitime, ou qui ne sont pas conservées sous forme numérique."}
+  ];
+</script>
+
 <section id="title" class="w-full py-40 bg-[#232323] text-white">
   <div class="w-[90%] mx-auto text-left max-w-7xl">
 	<h2 class="text-4xl text-[#F9B333] font-bold mb-6">
@@ -493,11 +519,41 @@
 
 <section id="annex1" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
-			Annexe 1 : description de vos droits sur les données traitées
-		</h2>
-		<div class="flex flex-col md: items-center pt-5">
-			
+		<div class="bg-[#1C1C1C] rounded-lg p-4">
+				<div class="flex flex-row justify-between items-center">
+					<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 mt-6 text-left">
+						Annexe 1 : description de vos droits sur les données traitées
+					</h2>
+					<button class="bg-yellow-400 text-black font-bold py-2 px-4 mb-6 mt-6 rounded mb-6 hover:bg-yellow-500" on:click={() => showTab()}>
+						{#if tab}Masquer l'annexe{:else}Voir l'annexe{/if}
+					</button>
+				</div>
+				{#if tab}
+				<Table>
+					<TableHead>
+						<TableHeadCell class="w-1/3 text-base md:text-2xl text-white font-bold text-left bg-[#1C1C1C] border border-[#FFD700]">Droit</TableHeadCell>
+						<TableHeadCell class="w-2/3 text-base md:text-2xl text-white font-bold text-left bg-[#1C1C1C] border border-[#FFD700]">Qu'est-ce que cela signifie ?</TableHeadCell>
+					</TableHead>
+					<TableBody>
+						{#each items as item}
+						<TableBodyRow class="border-b border-[#FFD700]">
+							<TableBodyCell class="align-top bg-[#1C1C1C] break-words whitespace-normal text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify border-b border-[#FFD700]">{item.name}</TableBodyCell>
+							<TableBodyCell class="align-top bg-[#1C1C1C] break-words whitespace-normal text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify border-b border-[#FFD700]">
+								{#if Array.isArray(item.definition)}
+								<ul class="list-disc list-inside space-y-2">
+									{#each item.definition as def}
+									<li>{def}</li>
+									{/each}
+								</ul>
+								{:else}
+								{item.definition}
+								{/if}
+							</TableBodyCell>
+						</TableBodyRow>
+						{/each}
+					</TableBody>
+				</Table>
+				{/if}
+			</div>
 		</div>
-	</div>
 </section>

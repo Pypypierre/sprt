@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+@import 'flowbite/dist/flowbite.css';
 @tailwind components;
 @tailwind utilities;
 
@@ -34,6 +35,18 @@
 	li::before{
 		content: "•";
 		@apply pr-2 text-white;
+	}
+
+	table {
+		@apply w-full text-sm text-left text-gray-400 border-collapse;
+	}
+
+	td {
+		@apply border border-gray-700 px-4 py-2;
+	}
+
+	tbody tr {
+		background-color: #F9B333;
 	}
 
 	[id="paraph"] {
