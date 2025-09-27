@@ -497,9 +497,7 @@
 			Annexe 1 : description de vos droits sur les données traitées
 		</h2>
 		<div class="flex flex-col md: items-center pt-5">
-			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
-				La présente Politique est entrée en vigueur au 1 octobre 2025 ; elle est susceptible d’être révisée en fonction des évolutions législatives et réglementaires ou d’une modification des conditions du traitement des données personnelles.
-			</p>
+			
 		</div>
 	</div>
 </section>
