@@ -11,9 +11,22 @@
   --breakpoint-desktop: 80rem;
 }
 
+
 @layer base {
   section {
     @apply w-full h-[90%] flex items-center py-20 tablet:scroll-mt-32 laptop:scroll-mt-36;
+  }
+
+  ul{
+	@apply list-none p-0 m-0;
+  }
+
+  li{
+	@apply pl-4;
+  }
+  li::before{
+	content: "•";
+	@apply pr-2 text-white;
   }
 
   [id="paraph"] {

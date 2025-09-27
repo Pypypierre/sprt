@@ -1,19 +1,3 @@
-<style>
-ul{
-  list-style-type:none;
-  padding: 0;
-  margin: 0;
-}
-li{
-  padding-left: 16px;
-}
-li::before{
-  content: "•";
-  padding-right: 8px;
-  color: white;
-}
-</style>
-
 <section id="Summary" class="py-30 md:w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-center max-w-[80%]">
 		<h1 class="text-lg mb-4 md:text-4xl text-[#F9B333] font-bold mb-6 pt-10">
