@@ -11,27 +11,34 @@
   --breakpoint-desktop: 80rem;
 }
 
-
 @layer base {
-  section {
-    @apply w-full h-[90%] flex items-center py-20 tablet:scroll-mt-32 laptop:scroll-mt-36;
-  }
+	section {
+		@apply w-full h-[90%] flex items-center py-20 tablet:scroll-mt-32 laptop:scroll-mt-36;
+	}
 
-  ul{
-	@apply list-none p-0 m-0;
-  }
+	ul{
+		@apply list-none p-0 m-0;
+	}
 
-  li{
-	@apply pl-4;
-  }
-  li::before{
-	content: "•";
-	@apply pr-2 text-white;
-  }
+	li{
+		@apply pl-4;
+	}
+	li::before{
+		content: "•";
+		@apply pr-2 text-white;
+	}
+	ul.list-disc li::before {
+		content: none;
+	}
 
-  [id="paraph"] {
-	@apply text-gray-300 text-base tablet:text-lg laptop:text-xl desktop:text-2xl text-center laptop:text-justify leading-relaxed;
-  }
+	li::before{
+		content: "•";
+		@apply pr-2 text-white;
+	}
+
+	[id="paraph"] {
+		@apply text-gray-300 text-base tablet:text-lg laptop:text-xl desktop:text-2xl text-center laptop:text-justify leading-relaxed;
+	}
 }
 
 @layer utilities {
