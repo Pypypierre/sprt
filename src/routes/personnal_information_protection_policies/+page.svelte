@@ -1,4 +1,4 @@
-<section id="values" class="w-full py-20 bg-[#232323] text-white">
+<section id="title" class="w-full py-40 bg-[#232323] text-white">
   <div class="w-[90%] mx-auto text-left max-w-7xl">
 	<h2 class="text-4xl text-[#F9B333] font-bold mb-6">
 	  Politique sur la protection des données personnelles
@@ -35,7 +35,7 @@
 		<h2 class="text-base md:text-2xl text-white text-left font-bold mb-6 pt-10">
 			Sommaire:
 		</h2>
-		<ul class="flex flex-col md:items-left pt-5">
+		<ul class=" md:items-left list-disc list-inside">
 				<li class="text-left text-xs text-gray-300 md:text-xl leading-relaxed mt-4">
 					<a href="#Intro" class="hover:underline">Introduction</a>
 				</li>
@@ -87,7 +87,7 @@
 			Définitions
 		</h2>
 		<div class="pt-5 text-justify">
-			<ul>
+			<ul class="list-disc list-inside">
 				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10">
 					Délégué à la Protection des Données (ou DPO) : le Délégué à la protection des données ou « DPO » de SPRT Society est garant du respect, par SPRT Society et ses filiales, de la réglementation sur la protection des données à caractère personnel. Il met en œuvre la présente politique de protection des données à caractère personnel et s’assure, notamment, de la documentation des traitements à l’occasion des projets impactant la protection de ces données. Il identifie les risques de non-conformité à la loi Informatique et Libertés et au RGPD et préconise les mesures adéquates à mettre en place. Il a en charge la sensibilisation des acteurs au respect des problématiques de protection des données à caractère personnel. Enfin, il prend part à la définition des contrôles de second niveau et à l’élaboration du plan d’audit pour les aspects qui les concernent. Référent des sujets CNIL, il est également le point d’entrée en cas de contrôle réglementaire portant sur les données personnelles.
 				</li>
@@ -312,10 +312,9 @@
 		</h3>
 		<div class="pt-5 text-justify">
 			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-				La sécurité de vos données personnelles est une priorité. De ce fait, nous mettons en œuvre des mesures de sécurité organisationnelles et techniques appropriées et conformes à l’état de l’art/ de l’état des connaissances afin de garantir un niveau de sécurité adapté aux risques et d’éviter que les données à caractère personnel que nous sommes amenés à traiter ne soient accidentellement perdues, utilisées ou consultées de manière non autorisée, ou encore modifiées ou divulguées.
-Nous limitons l’accès à vos données à caractère personnel aux seuls employés (et le cas échéant à nos prestataires/sous-traitants) dont la fonction justifie un tel accès. Toutes ces personnes sont soumises à une obligation contractuelle de confidentialité. Nous pouvons toutefois dans certaines hypothèses être amenés à/contraints de partager lesdites données avec des tiers (ne serait-ce dans certaines hypothèses que pour permettre que soit délivrée la prestation par vous requise), à savoir :
+				La sécurité de vos données personnelles est une priorité. De ce fait, nous mettons en œuvre des mesures de sécurité organisationnelles et techniques appropriées et conformes à l’état de l’art/ de l’état des connaissances afin de garantir un niveau de sécurité adapté aux risques et d’éviter que les données à caractère personnel que nous sommes amenés à traiter ne soient accidentellement perdues, utilisées ou consultées de manière non autorisée, ou encore modifiées ou divulguées. Nous limitons l’accès à vos données à caractère personnel aux seuls employés (et le cas échéant à nos prestataires/sous-traitants) dont la fonction justifie un tel accès. Toutes ces personnes sont soumises à une obligation contractuelle de confidentialité. Nous pouvons toutefois dans certaines hypothèses être amenés à/contraints de partager lesdites données avec des tiers (ne serait-ce dans certaines hypothèses que pour permettre que soit délivrée la prestation par vous requise), à savoir :
 			</p>
-			<ul>
+			<ul class="list-disc list-inside">
 				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10">
 					Administrations publiques et gouvernementales, autorités compétentes, etc… 
 					Exemple : l’Autorité des Marchés Financiers;
@@ -339,6 +338,167 @@ Nous limitons l’accès à vos données à caractère personnel aux seuls emplo
 			</p>
 			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
 				Il est toutefois rappelé que, compte tenu des caractéristiques intrinsèques de l’Internet, les données éventuellement transmises via les sites Internet dont nous sommes titulaires/ qui nous sont transmises via les réseaux font l’objet de mesures qui ne peuvent prémunir de tous les risques de détournement et/ou de piratage, ce dont SPRT Society ne saurait être tenue pour responsable.
+			</p>
+		</div>
+		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+			Ne pas faire commerce de vos données traitées
+		</h3>
+		<div class="pt-5 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Ainsi que précédemment mentionné, nous pouvons être amenés à transférer vos données personnelles à des tiers, soit parce que nous y sommes réglementairement contraints, soit afin de fournir des produits et services adaptés.
+			</p>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Elles ne seront utilisées qu'aux seules fins convenues/ justifiant de leur traitement par SPRT Society, et non à des fins commerciales. En tout état de cause, nous nous engageons à ne vendre aucune donnée à caractère personnel à des tiers.
+			</p>
+		</div>
+		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+			Ne pas conserver inutilement vos données
+		</h3>
+		<div class="pt-5 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Les données à caractère personnel ne doivent pas être conservées au-delà de la durée nécessaire à la finalité du traitement.
+			</p>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Cette durée tient notamment compte :
+			</p>
+			<ul class="list-disc list-inside">
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					De celle de la relation qui nous lie à vous ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					De la finalité considérée ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Des contraintes légales et réglementaires auxquelles nous sommes astreints ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Ddes règles relatives à la prescription des actions judiciaires dans l’hypothèse de contentieux éventuels.
+				</li>
+			</ul>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				A titre d’illustration, les conversations par chat afférents aux opérations d’investissement effectuées dans le cadre de notre activité de gestion de portefeuille pour compte de tiers sont conservés pendant une durée maximum de 5 ans à compter de la date d’enregistrement, ce afin de respecter l’obligation légale de conservation fixée par les articles 321-72 à 321-74 du Règlement Général de l’Autorité des Marchés Financiers.
+			</p>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Plus généralement, nous ne conservons les données à caractère personnel que pendant la durée raisonnablement requise (par application du référentiel précité ou par référence à celui-ci pour les traitements non encore identifiés et intégrés dans ce dispositif) pour la réalisation des finalités telles que mentionnées dans la présente Politique. Pour mémoire, nous pouvons être amenés à conserver des données collectées pour répondre à une finalité même après le terme de celle-ci si cette conservation se justifie par une finalité différente, par exemple pour répondre à des besoins juridiques, réglementaires, fiscaux ou comptables. Ce serait par exemple le cas dans l’hypothèse de la survenance avérée/ raisonnablement probable d’un litige au terme d’une relation contractuelle, et ce pour des durées alors conformes aux besoins de la finalité spécifique que constituerait un tel contentieux.
+			</p>
+		</div>
+		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+			Prendre les précautions nécessaires en cas de transfert éventuel de vos données
+		</h3>
+		<div class="pt-5 text-justify">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				SPRT Society s’engage à ce que vos données à caractère personnel bénéficient d’un niveau de protection adéquat et cohérent partout où elles peuvent être transférées.
+			</p>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+				Lorsque nous transférons vos données à des sous-traitants/prestataires de services qui nous fournissent un service, nous obtenons des engagements contractuels et des assurances de leur part pour protéger vos données personnelles.
+			</p>
+		</div>
+	</div>
+</section>
+
+<section id="rights" class="w-full py-20 bg-[#181818] text-white">
+	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
+		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+			Vos droits
+		</h2>
+		<div class="flex flex-col md: items-left pt-5">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				Conformément à la règlementation en vigueur, vous avez la faculté de nous contacter à propos de vos données personnelles afin de :
+			</p>
+			<ul class="list-disc list-inside">
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Vous assurez de ce que nous détenons (ou pas) et utilisons des données vous concernant ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Connaître l’utilisation que nous en faisons ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Connaître leur(s) destinataire(s) ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Savoir si nous les transférons à l’étranger ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Savoir comment nous les protégeons ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Connaître leur(s) durée(s) de conservation ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Savoir comment nous les avons obtenues ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Savoir si nous avons effectué une prise de décision automatisée à l’aide de vos données personnelles ;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Solliciter une copie desdites données.
+				</li>
+			</ul>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				Vous disposez en outre de différents droits sur vos données personnelles, à savoir, par-delà le droit d'accès susmentionné, la faculté d’obtenir dès lors que la réglementation l’autorise, la rectification et/ou l’effacement par SPRT Society de vos données à caractère personnel mais également celle d’exercer les différents droits suivants relatifs au traitement de vos données : droit à la limitation du traitement, droit de vous opposer au traitement et droit à la portabilité de vos données.
+			</p>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				Une présentation plus complète de ces droits et des modalités de leur exercice figure en annexe à la présente « Politique ».
+			</p>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				Si vous souhaitez procéder à l’exercice d’un ou plusieurs de ces droits, ou obtenir des informations telles que précédemment mentionnées, vous pouvez nous contacter à tout moment en adressant votre demande à l’adresse suivante : <a href="mailto:contact@sprt-society.com" class="text-yellow-400 hover:underline">contact@sprt-society.com</a>.
+			</p>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				Nous pouvons exiger une preuve d’identité lors d’une demande d’exercice de l’un de ces droits, afin de nous assurer de ne pas altérer ou transmettre des données vous concernant à des tiers qui n’auraient pas à en connaître/ ne seraient pas habilités à solliciter une action sur ces données en votre nom.
+			</p>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				De manière plus générale, si vous avez des questions sur la présente Politique de protection des données ou sur la manière d’exercer vos droits, nous vous invitons à vous rapprocher du Délégué à la protection des données SPRT Society :
+			</p>
+			<ul class="list-disc list-inside">
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Par e-mail : <a href="mailto:contact@sprt-society.com" class="text-yellow-400 hover:underline">contact@sprt-society.com</a>;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Par courrier : A l’attention du Délégué à la Protection des Données, SPRT Society, 12, rue Guersant 75017, Paris , France.
+				</li>
+			</ul>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				Si vous n’êtes pas satisfait de la façon dont nous gérons vos données personnelles, notre Délégué à la protection des données est à votre disposition pour traiter de la question directement avec vous et vous apporter les précisions nécessaires.
+			</p>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				Nous nous efforçons de répondre à toutes les demandes sous un mois à compter de leur réception. Cela peut cependant prendre plus de temps si la demande est particulièrement complexe ; dans cette hypothèse, vous en seriez alors averti, et la réponse vous serait adressée dans les meilleurs délais compte tenu de la nature du sujet. Pour accélérer le traitement de votre demande, nous pouvons vous demander de fournir plus de détails sur ce que vous souhaitez recevoir ou sur ce qui vous préoccupe.
+			</p>
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				En cas de difficultés, ou si la réponse fournie ne vous apparait pas satisfaisante, vous disposez de la faculté de saisir la Commission Nationale de l’Informatique et des Libertés (CNIL), l’autorité locale chargée du contrôle de la protection des données personnelles afin de formuler toute réclamation :
+			</p>
+			<ul class="list-disc list-inside">
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					Par voie postale : CNIL - 3 place de Fontenoy - TSA 80715 - 75334 PARIS CEDEX 07;
+				</li>
+				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
+					En ligne sur le site de la CNIL : <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer" class="text-yellow-400 hover:underline">www.cnil.fr</a>.
+				</li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<section id="revision" class="w-full py-20 bg-[#181818] text-white">
+	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
+		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+			Révision de la présente politique
+		</h2>
+		<div class="flex flex-col md: items-center pt-5">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				La présente Politique est entrée en vigueur au 1 octobre 2025 ; elle est susceptible d’être révisée en fonction des évolutions législatives et réglementaires ou d’une modification des conditions du traitement des données personnelles.
+			</p>
+		</div>
+	</div>
+</section>
+
+<section id="annex1" class="w-full py-20 bg-[#181818] text-white">
+	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
+		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+			Annexe 1 : description de vos droits sur les données traitées
+		</h2>
+		<div class="flex flex-col md: items-center pt-5">
+			<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify">
+				La présente Politique est entrée en vigueur au 1 octobre 2025 ; elle est susceptible d’être révisée en fonction des évolutions législatives et réglementaires ou d’une modification des conditions du traitement des données personnelles.
 			</p>
 		</div>
 	</div>
