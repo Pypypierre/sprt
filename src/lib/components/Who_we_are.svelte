@@ -10,7 +10,7 @@
 
     <div class="grid grid-cols-2 gap-6 md:gap-12 items-start">
       <div class="flex flex-col items-center text-center">
-        <img src="Jules.jpeg" alt="Jules Lohnherr" class="w-48 h-48 rounded-full object-cover mb-4">
+        <img src="Jules.jpg" alt="Jules Lohnherr" class="w-48 h-48 rounded-full object-cover mb-4">
         <h3 class="text-xl font-semibold">Jules Lohnherr</h3>
         <p class="text-gray-400 mb-2">Fondateur – Président</p>
         <p class="text-gray-400 max-w-xs text-sm leading-relaxed">
