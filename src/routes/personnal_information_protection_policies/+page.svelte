@@ -531,14 +531,14 @@
 				{#if tab}
 				<Table>
 					<TableHead>
-						<TableHeadCell class="w-1/3 text-base md:text-2xl text-white font-bold text-left bg-[#1C1C1C] border border-[#FFD700]">Droit</TableHeadCell>
-						<TableHeadCell class="w-2/3 text-base md:text-2xl text-white font-bold text-left bg-[#1C1C1C] border border-[#FFD700]">Qu'est-ce que cela signifie ?</TableHeadCell>
+						<TableHeadCell class="w-1/3 text-base md:text-2xl text-white font-bold text-left bg-[#1C1C1C] border border-[#F9B333]">Droit</TableHeadCell>
+						<TableHeadCell class="w-2/3 text-base md:text-2xl text-white font-bold text-left bg-[#1C1C1C] border border-[#F9B333]">Qu'est-ce que cela signifie ?</TableHeadCell>
 					</TableHead>
 					<TableBody>
 						{#each items as item}
-						<TableBodyRow class="border-b border-[#FFD700]">
-							<TableBodyCell class="align-top bg-[#1C1C1C] break-words whitespace-normal text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify border-b border-[#FFD700]">{item.name}</TableBodyCell>
-							<TableBodyCell class="align-top bg-[#1C1C1C] break-words whitespace-normal text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify border-b border-[#FFD700]">
+						<TableBodyRow class="border-b border-[#F9B333]">
+							<TableBodyCell class="align-top bg-[#1C1C1C] break-words whitespace-normal text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify border-b border-[#F9B333]">{item.name}</TableBodyCell>
+							<TableBodyCell class="align-top bg-[#1C1C1C] break-words whitespace-normal text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify border-b border-[#F9B333]">
 								{#if Array.isArray(item.definition)}
 								<ul class="list-disc list-inside space-y-2">
 									{#each item.definition as def}
