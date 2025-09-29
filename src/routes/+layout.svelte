@@ -27,44 +27,45 @@
     	window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
-	onMount(async () => {
-	// Initialize Flowbite
-	if (browser) {
-		const { initFlowbite } = await import('flowbite');
-		initFlowbite();
-	}
+	onMount(() => {
+		// Initialize Flowbite
+		const handleScroll = () => {
+			scrolled.set(window.scrollY > 20);
+		};
+		if (browser) {
+			import('flowbite').then(({ initFlowbite }) => {
+				initFlowbite();
+			});
+		}
 
-	const handleScroll = () => {
-		scrolled.set(window.scrollY > 20);
-	};
 
-	const timer = setTimeout(() => {
-      isFirstLoad.set(false);
-    }, 1000);
+		const timer = setTimeout(() => {
+			isFirstLoad.set(false);
+		}, 1000);
 
-	handleScroll();
-	window.addEventListener('scroll', handleScroll);
+		handleScroll();
+		window.addEventListener('scroll', handleScroll);
 
-	const footer = document.getElementById('footer');
+		const footer = document.getElementById('footer');
 
-	const observer = new IntersectionObserver(
-		(entries) => {
-		entries.forEach(entry => {
-			footerVisible.set(entry.isIntersecting);
-		});
-		},
-		{ threshold: 0.5 }
-	);
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach(entry => {
+					footerVisible.set(entry.isIntersecting);
+				});
+			},
+			{ threshold: 0.5 }
+		);
 
-	if (footer) {
-		observer.observe(footer);
-	}
+		if (footer) {
+			observer.observe(footer);
+		}
 
-	return () => {
-		window.removeEventListener('scroll', handleScroll);
-		if (footer) observer.unobserve(footer);
-		clearTimeout(timer);
-	};
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+			if (footer) observer.unobserve(footer);
+			clearTimeout(timer);
+		};
 	});
 
 	$effect(() => {
@@ -83,12 +84,11 @@
 
 <svelte:head>
 	<link rel="icon" type="image/jpg" href="/favicon.jpg" />
-	<link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
 	<title>Sprt</title>
 </svelte:head>
 
 {#if !$isFirstLoad}
-	<header class="hidden mobile:flex mobile:fixed top-0 left-0 w-full z-50 transition-colors duration-500 transition-opacity text-white px-6 py-4 flex items-center"
+	<header class="hidden md:flex fixed top-0 left-0 w-full z-50 transition-colors duration-500 transition-opacity text-white px-6 py-4 flex items-center"
 		class:laptop:bg-black={$scrolled}
 	  	class:laptop:bg-transparent={!$scrolled}
 		class:opacity-0={$footerVisible}
@@ -100,7 +100,7 @@
 					<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
 				</a>
 			</div>
-			<nav class="hidden laptop:flex space-x-4 text-lg pl-5 tracking-widest font-bold uppercase items-center"> 
+			<nav class="hidden lg:flex space-x-4 text-lg pl-5 tracking-widest font-bold uppercase items-center"> 
 				<a href="/#concept" onclick={(event: Event) => scrollToValues(event, "concept")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Le concept</a>
 				<a href="/#values" onclick={(event: Event) => scrollToValues(event, "values")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nos valeurs</a>
 				<a href="/#who_we_are" onclick={(event: Event) => scrollToValues(event, "who_we_are")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Qui sommes nous</a>
@@ -115,7 +115,7 @@
 					</a>
 	    		</div>
 			</nav>		
-			<nav class="hidden mobile:flex laptop:hidden">
+			<nav class="hidden sm:flex lg:hidden">
 				<button
 					class="flex flex-col justify-center items-center w-10 h-10 relative z-50"
 					onclick={toggleMobileMenu}
@@ -163,8 +163,8 @@
 			</nav>
 		</div>	
 	</header>
-	<div class="fixed top-0 left-0 w-full z-50 bg-transparent px-4 py-2 flex items-center justify-between mobile:flex mobile:hidden">
-		<div class="flex items-center space-x-4">
+	<div class="fixed top-0 left-0 w-full z-50 bg-transparent px-4 py-2 flex items-center justify-between sm:hidden">
+		<div class="flex items-center space-x-4 bg-black p-2 rounded-lg">
 			 <a href="/" class="block">
 				<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
 			</a>
@@ -185,7 +185,7 @@
 			{#if $scrolled}
 				<button 
 					onclick={scrollToTop}
-					class="mb-2 mt-2 flex items-center justify-center w-12 h-12 rounded-full border border-[#F9B333] text-[#F9B333] hover:bg-[#F9B333] hover:text-black transition laptop:hidden"
+					class="mb-2 mt-2 flex items-center justify-center w-12 h-12 rounded-full border border-[#F9B333] text-[#F9B333] hover:bg-[#F9B333] hover:text-black transition lg:hidden"
 					aria-label="Retour en haut"
 				>
 					<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -213,7 +213,7 @@
 			<a href="/downloads/FORMULAIRE-DE-RÉTRACTATION.pdf" target="_blank" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Se rétracter</a>
 			<a href="/contact" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nous contacter</a>
 		</nav>
-		<div class="hidden laptop:flex items-center space-x-4">
+		<div class="hidden md:flex items-center space-x-4">
 			 <a href="/" class="block">
 				<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto object-contain" />
 			</a>

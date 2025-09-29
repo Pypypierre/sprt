@@ -5,20 +5,20 @@
   const slides = [
     {
       image: '/hero/slide_1.jpg',
-      title: '190 % realise sur 2025',
-      subtitle: 'Sous-titre 1',
+      title: '190 %',
+      subtitle: 'Réalisés sur 2025',
 	  objectPosition: 'object-center'
     },
     {
       image: '/hero/slide_2.jpg',
-      title: '300 personnes utilisent notre service',
-      subtitle: 'Sous-titre 2',
+      title: '300 personnes',
+      subtitle: 'Utilisent déjà notre service',
 	  objectPosition: 'object-[20%_center]'
     },
     {
-      image: '/hero/slide_3.png',
-      title: 'Ouverture prochaine de 300 autres places',
-      subtitle: 'Sous-titre 3',
+      image: '/hero/slide_3.jpg',
+      title: 'Notre équipe s\'agrandit',
+      subtitle: '300 nouvelles places à venir',
 	  objectPosition: 'object-center'
     },
   ];
@@ -45,7 +45,7 @@
       <img src={slide.image} alt={slide.title} class="w-full h-full object-cover ${slide.objectPosition}" />
       <div class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center text-white px-4">
         <h1 class="text-4xl md:text-6xl font-bold mb-4">{slide.title}</h1>
-        <p class="text-lg md:text-xl">{slide.subtitle}</p>
+        <p class="text-lg md:text-2xl">{slide.subtitle}</p>
       </div>
     </div>
   {/each}

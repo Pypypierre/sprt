@@ -13,6 +13,10 @@
 }
 
 @layer base {
+	* {
+		font-family: 'Montserrat', sans-serif;
+	}
+	
 	section {
 		@apply w-full h-[90%] flex items-center py-20 tablet:scroll-mt-32 laptop:scroll-mt-36;
 	}
@@ -52,6 +56,10 @@
 	[id="paraph"] {
 		@apply text-gray-300 text-base tablet:text-lg laptop:text-xl desktop:text-2xl text-center laptop:text-justify leading-relaxed;
 	}
+
+	text {
+		@apply font-sans;
+	}
 }
 
 @layer utilities {
@@ -87,5 +95,5 @@ body {
   margin: 0;
   background-color: #121212;  /* or any shade above */
   color: #f0f0f0;             /* light text to contrast */
-  font-family: 'Cinzel';
+  font-family: 'Montserrat', sans-serif;
 }
