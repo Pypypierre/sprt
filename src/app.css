@@ -37,8 +37,7 @@
 	}
 
 	li::before{
-		content: "•";
-		@apply pr-2 text-white;
+		content: none;
 	}
 
 	table {
