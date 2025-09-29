@@ -5,19 +5,19 @@
   const slides = [
     {
       image: '/hero/slide_1.jpg',
-      title: 'Titre Slide 1',
+      title: '190 % realise sur 2025',
       subtitle: 'Sous-titre 1',
 	  objectPosition: 'object-center'
     },
     {
       image: '/hero/slide_2.jpg',
-      title: 'Titre Slide 2',
+      title: '300 personnes utilisent notre service',
       subtitle: 'Sous-titre 2',
 	  objectPosition: 'object-[20%_center]'
     },
     {
       image: '/hero/slide_3.png',
-      title: 'Titre Slide 3',
+      title: 'Ouverture prochaine de 300 autres places',
       subtitle: 'Sous-titre 3',
 	  objectPosition: 'object-center'
     },
