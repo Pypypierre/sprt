@@ -89,13 +89,13 @@
 
 {#if !$isFirstLoad}
 	<header class="md:flex fixed top-0 left-0 w-full z-50 transition-colors duration-500 transition-opacity text-white px-6 py-4 flex items-center"
-		class:md:bg-black={$scrolled}
-	  	class:md:bg-transparent={!$scrolled}
+		class:lg:bg-black={$scrolled}
+	  	class:lg:bg-transparent={!$scrolled}
 		class:opacity-0={$footerVisible}
 		class:opacity-100={!$footerVisible}
 	>
 		<div class="w-[90%] flex items-center justify-between mx-auto">
-			<div class="flex items-center space-x-4 bg-black p-2 rounded-lg md:rounded-none md:bg-transparent">
+			<div class="flex items-center space-x-4 bg-black p-2 rounded-lg lg:rounded-none lg:bg-transparent">
 				 <a href="/" class="block">
 					<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
 				</a>
