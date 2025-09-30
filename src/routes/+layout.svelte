@@ -13,7 +13,7 @@
 	const isOpen = writable(false);
 
 	function toggleMobileMenu() {
-	  isOpen.update(v => !v);
+		isOpen.update(v => !v);
 	}
 
 	async function scrollToValues(event: Event, sectionId: string) {
@@ -88,14 +88,14 @@
 </svelte:head>
 
 {#if !$isFirstLoad}
-	<header class="hidden md:flex fixed top-0 left-0 w-full z-50 transition-colors duration-500 transition-opacity text-white px-6 py-4 flex items-center"
-		class:laptop:bg-black={$scrolled}
-	  	class:laptop:bg-transparent={!$scrolled}
+	<header class="md:flex fixed top-0 left-0 w-full z-50 transition-colors duration-500 transition-opacity text-white px-6 py-4 flex items-center"
+		class:md:bg-black={$scrolled}
+	  	class:md:bg-transparent={!$scrolled}
 		class:opacity-0={$footerVisible}
 		class:opacity-100={!$footerVisible}
 	>
 		<div class="w-[90%] flex items-center justify-between mx-auto">
-			<div class="flex items-center space-x-4">
+			<div class="flex items-center space-x-4 bg-black p-2 rounded-lg md:rounded-none md:bg-transparent">
 				 <a href="/" class="block">
 					<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
 				</a>
@@ -114,7 +114,7 @@
 						<img src="/icons/linkedin.png" alt="LinkedIn" class="h-12 w-12" />
 					</a>
 	    		</div>
-			</nav>		
+			</nav>
 			<nav class="hidden sm:flex lg:hidden">
 				<button
 					class="flex flex-col justify-center items-center w-10 h-10 relative z-50"
@@ -163,13 +163,6 @@
 			</nav>
 		</div>	
 	</header>
-	<div class="fixed top-0 left-0 w-full z-50 bg-transparent px-4 py-2 flex items-center justify-between sm:hidden">
-		<div class="flex items-center space-x-4 bg-black p-2 rounded-lg">
-			 <a href="/" class="block">
-				<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
-			</a>
-		</div>
-	</div>
 	<nav
 	class="fixed bottom-0 left-0 right-0 z-50 bg-black text-white border-t border-yellow-400 py-2 px-4 rounded-t-xl mobile:hidden"
 	class:opacity-0={$footerVisible}
