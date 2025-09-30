@@ -5,6 +5,7 @@
   	import { writable } from 'svelte/store';
 	import Loader from '$lib/components/Loader.svelte';
 	import { browser } from '$app/environment';
+	import { afterNavigate, beforeNavigate } from '$app/navigation';
 
 	const scrolled = writable(false);
 	const footerVisible = writable(false);
@@ -26,18 +27,36 @@
 	function scrollToTop() {
     	window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
+	
+	const handleScroll = () => {
+		scrolled.set(window.scrollY > 20);
+	};
 
 	onMount(() => {
-		// Initialize Flowbite
-		const handleScroll = () => {
-			scrolled.set(window.scrollY > 20);
-		};
+		if ('scrollRestoration' in history)
+			history.scrollRestoration = 'manual';
+
 		if (browser) {
 			import('flowbite').then(({ initFlowbite }) => {
 				initFlowbite();
 			});
 		}
 
+		afterNavigate(({ to, from }) => {
+    		if (to && from && to.url.pathname !== from.url.pathname)
+      			requestAnimationFrame(() => requestAnimationFrame(scrollToTop));
+		});
+		
+		beforeNavigate(({ to, from, cancel }) => {
+			if (to && from && to.url.pathname === from.url.pathname) {
+    			return;
+    		}
+			isFirstLoad.set(true);
+			window.scrollTo(0, 0);
+			const timer_loader = setTimeout(() => {
+				isFirstLoad.set(false);
+			}, 1000);
+		});
 
 		const timer = setTimeout(() => {
 			isFirstLoad.set(false);
@@ -80,7 +99,6 @@
 </script>
 
 <Loader show={!!$isFirstLoad} />
-
 
 <svelte:head>
 	<link rel="icon" type="image/jpg" href="/favicon.jpg" />
@@ -204,7 +222,7 @@
 			<a href="/privacy_policy" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Politique de confidentialité</a>
 			<a href="/personnal_information_protection_policies" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Politique de protection des données</a>
 			<a href="/downloads/FORMULAIRE-DE-RÉTRACTATION.pdf" target="_blank" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Se rétracter</a>
-			<a href="/contact" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nous contacter</a>
+			<a href="/contact" onclick={(event: Event) => window.scrollTo(0, 0)} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nous contacter</a>
 		</nav>
 		<div class="hidden md:flex items-center space-x-4">
 			 <a href="/" class="block">

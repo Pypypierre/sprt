@@ -1,4 +1,4 @@
-<section id="contact-info" class="w-full py-40 bg-[#181818] text-white">
+<section id="Contact-info" class="w-full py-40 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center max-w-7xl">
 		<h2 class="text-4xl laptop:text-left text-[#F9B333] font-bold mb-6 pt-10">
 			Nos coordonnées
