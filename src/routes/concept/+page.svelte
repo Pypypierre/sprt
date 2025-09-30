@@ -1,5 +1,5 @@
 <section id="strategies" class="w-full py-40 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
+	<div class="w-[90%] mx-auto text-right max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Notre stratégie, étape par étape
 		</h2>

@@ -12,6 +12,12 @@
 	const isFirstLoad = writable(true);
 	const OnMobile = writable(false);
 	const isOpen = writable(false);
+	const isOpen_mob = writable(false);
+
+	function toggle () {
+		isOpen_mob.update(v => !v);
+		console.log($isOpen_mob);
+	}
 
 	function toggleMobileMenu() {
 		isOpen.update(v => !v);
@@ -189,31 +195,46 @@
 			</nav>
 		</div>	
 	</header>
-	<nav
-	class="fixed bottom-0 left-0 right-0 z-50 bg-black text-white border-t border-yellow-400 py-2 px-4 rounded-t-xl mobile:hidden"
-	class:opacity-0={$footerVisible}
-	class:opacity-100={!$footerVisible}
+	<div class="fixed bottom-0 left-0 right-0 z-50 bg-black flex flex-col items-center justify-center border-t border-yellow-400 rounded-t-4xl"
+		class:opacity-0={$footerVisible}
 	>
-		<div class="w-[90%] mx-auto flex flex-col items-center">
-			<div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 w-fit max-w-full mx-auto text-center">
-				<a href="/#concept" class="text-xl">Concept</a>
-				<a href="/#values" class="text-xl">Nos valeurs</a>
-				<a href="/#who_we_are" class="text-xl">Qui sommes nous</a>
-				<a href="/contact" class="text-xl">Nous contacter</a>
-			</div>
-			{#if $scrolled}
-				<button 
-					onclick={scrollToTop}
-					class="mb-2 mt-2 flex items-center justify-center w-12 h-12 rounded-full border border-[#F9B333] text-[#F9B333] hover:bg-[#F9B333] hover:text-black transition lg:hidden"
-					aria-label="Retour en haut"
-				>
-					<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/>
-					</svg>
-				</button>
-			{/if}
+		<div class="w-[90%] mx-auto flex items-center justify-center py-2">
+			<button
+				class="md:hidden inline-flex items-center justify-center w-9 h-2 pb-2"
+				onclick={toggle}
+				aria-controls="mobile-menu"
+				aria-label="Toggle mobile menu"
+			>
+				<svg class="w-32 h-32" viewBox="0 0 24 24" fill="currentColor">
+					<path d={$isOpen_mob ? 'M6 9l6 6 6-6' : 'M6 15l6-6 6 6'} />
+				</svg>
+			</button>
 		</div>
-	</nav>
+		{#if $isOpen_mob}
+			<nav
+			class="w-[90%] mx-auto flex items-center justify-center py-2">
+				<div class="w-[90%] mx-auto flex flex-col items-center">
+					<div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 w-fit max-w-full mx-auto text-center">
+						<a href="/#concept" class="text-xl">Concept</a>
+						<a href="/#values" class="text-xl">Nos valeurs</a>
+						<a href="/#who_we_are" class="text-xl">Qui sommes nous</a>
+						<a href="/contact" class="text-xl">Nous contacter</a>
+					</div>
+					{#if $scrolled}
+						<button 
+							onclick={scrollToTop}
+							class="mb-2 mt-2 flex items-center justify-center w-12 h-12 rounded-full border border-[#F9B333] text-[#F9B333] hover:bg-[#F9B333] hover:text-black transition lg:hidden"
+							aria-label="Retour en haut"
+						>
+							<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+								<path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/>
+							</svg>
+						</button>
+					{/if}
+				</div>
+			</nav>
+		{/if}
+	</div>
 {/if}
 
 <main>

@@ -18,7 +18,7 @@
 	}
 	
 	section {
-		@apply w-full h-[90%] flex items-center py-20 tablet:scroll-mt-32 laptop:scroll-mt-36;
+		@apply w-full h-[90%] flex items-center laptop:py-20 tablet:scroll-mt-32 laptop:scroll-mt-36;
 	}
 
 	ul{
@@ -53,7 +53,7 @@
 	}
 
 	[id="paraph"] {
-		@apply text-gray-300 text-base tablet:text-lg laptop:text-xl desktop:text-2xl text-center laptop:text-justify leading-relaxed;
+		@apply ml-6 text-gray-300 text-base tablet:text-lg laptop:text-xl desktop:text-2xl text-center laptop:text-justify leading-relaxed;
 	}
 
 	text {
