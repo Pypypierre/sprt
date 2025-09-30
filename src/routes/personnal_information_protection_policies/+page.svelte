@@ -15,9 +15,34 @@
 		"Vous avez le droit d’obtenir des informations claires, transparentes et compréhensibles sur la manière dont nous utilisons vos données à caractère personnel et sur l’exercice de vos droits."
 	  ]
 	},
-    { name: "Le droit d'accès et de rectification", definition: "" },
-    { name: "Le droit à l'effacement (« droit à l’oubli »)", definition: ""},
-    { name: "Le droit à la limitation du traitement", definition: "" },
+    { name: "Le droit d'accès et de rectification", definition: [
+		"Vous pouvez demander l’accès à vos données personnelles et leur rectification si celles-ci sont inexactes, incomplètes, équivoques ou périmées ; il est important que les données que nous détenons à votre sujet soient exactes et à jour. Vous pouvez nous demander :",
+		[
+			"Rectifier toute information incorrecte à votre sujet ;",
+			"D’effacer vos données personnelles si vous pensez que nous n’avons plus besoin de les utiliser aux fins pour lesquelles nous les avons recueillies auprès de vous ;",
+			"D’effacer vos données personnelles si vous avez retiré votre consentement concernant notre utilisation de ces données, si vous avez exercé votre droit de vous opposer à une utilisation légitime de vos données, lorsque nous les avons utilisées illégalement ou lorsque nous sommes soumis à une obligation légale ou règlementaire d’effacer vos données personnelles."
+		],
+		"Il se peut que nous ne soyons pas en mesure d’accéder, en tout ou partie, à votre demande, par exemple lorsque nous devons continuer à utiliser vos données personnelles afin de nous conformer à une obligation règlementaire ou légale ou lorsque nous devons utiliser vos données personnelles en cas de litige."
+	] },
+    { name: "Le droit à l'effacement (« droit à l’oubli »)", definition: [
+		"Vous avez le droit d’obtenir que nous procédions à l’effacement de vos données personnelles :",
+		[
+			"Si vous pensez que nous n’avons plus besoin de les utiliser aux fins pour lesquelles nous les avons recueillies auprès de vous ;",
+			"Si vous avez retiré votre consentement concernant notre utilisation de ces données ;",
+			"Si vous avez exercé votre droit de vous opposer à une utilisation légitime de vos données, lorsque nous les avons utilisées illégalement ;",
+			"Ou lorsque nous sommes soumis à une obligation légale ou règlementaire d’effacer vos données personnelles."
+		],
+		"Il se peut que nous ne soyons pas en mesure d’accéder, en tout ou partie, à votre demande, par exemple lorsque nous devons continuer à utiliser vos données personnelles afin de nous conformer à une obligation règlementaire ou légale ou lorsque nous devons utiliser vos données personnelles en cas de litige."
+	] },
+    { name: "Le droit à la limitation du traitement", definition: [
+		"Vous pouvez nous demander de limiter notre utilisation de vos données personnelles dans certaines circonstances, par exemple lorsque :",
+		[
+			"Vous pensez qu’une donnée est inexacte et que nous devons la vérifier ;",
+			"Une donnée n’est plus nécessaire aux fins pour lesquelles elle a été recueillie, mais est nécessaire en cas de litige ; ou",
+			"Vous vous êtes opposé(e) à l’utilisation que nous faisons de vos données personnelles ; avant application de cette mesure, il nous appartient néanmoins de vérifier si nous serions susceptibles de continuer à les utiliser pour d'autres finalités (ce dont nous vous avertirions)."
+		],
+		"Cela impliquera un gel temporaire du traitement de vos données personnelles. SPRT Society ne devra plus utiliser vos données personnelles mais pourra/devra les conserver (et pourra les utiliser le cas échéant pour répondre à des finalités différentes)."
+	] },
     { name: "Droit d'opposition au traitement", definition: "Vous pouvez vous opposer à toute utilisation de vos données personnelles si vous pensez que vos droits et libertés fondamentaux à la protection de vos données l’emportent sur notre intérêt légitime à utiliser ces données. Si vous nous présentez une objection, il se peut que nous continuions à utiliser lesdites données personnelles si nous pouvons démontrer que nous avons des intérêts légitimes impérieux pour l’utilisation de ces données."},
     { name: "Le droit de définir des directives quant au sort de vos données après votre décès", definition: "Vous pouvez définir des directives relatives à la conservation, à l'effacement et à la communication de vos données personnelles après votre décès. Ces directives sont générales ou particulières. Les directives générales sont enregistrées auprès d’un tiers de confiance. Les directives particulières le sont auprès du Responsable de traitement tel que défini en tête de la présente Politique."},
     { name: "Le droit d’obtenir une copie de vos données personnelles", definition: "Vous pouvez nous demander de vous fournir une copie de vos données personnelles dans un format structuré, couramment utilisé et lisible sur ordinateur, ou vous pouvez nous demander de les transférer directement à un autre Responsable de traitement (par exemple, une autre société). Vous ne pouvez exercer ce droit que lorsque nous utilisons vos données personnelles dans le cadre d’un contrat avec vous, ou lorsque nous vous avons demandé votre consentement pour utiliser vos données personnelles. Ce droit ne s’applique pas aux données personnelles que nous détenons ou traitons en vertu de notre intérêt légitime, ou qui ne sont pas conservées sous forme numérique."}
@@ -66,22 +91,22 @@
 					<a href="#Intro" class="hover:underline">Introduction</a>
 				</li>
 				<li class="text-left text-xs text-gray-300 md:text-xl leading-relaxed mt-4">
-					<a href="#Covered_data" class="hover:underline">Définitions</a>
+					<a href="#Definitions" class="hover:underline">Définitions</a>
 				</li>
 				<li class="text-left text-xs text-gray-300 md:text-xl leading-relaxed mt-4">
-					<a href="#Complaints" class="hover:underline">Présentation du cadre dans lequel sont effectués les traitements de données personnelles par SPRT Society</a>
+					<a href="#DataProcessingFramework" class="hover:underline">Présentation du cadre dans lequel sont effectués les traitements de données personnelles par SPRT Society</a>
 				</li>
 				<li class="text-left text-xs text-gray-300 md:text-xl leading-relaxed mt-4">
-					<a href="#Use_of_personal_data" class="hover:underline">Nos engagements quant à vos données personnelles</a>
+					<a href="#Engagements" class="hover:underline">Nos engagements quant à vos données personnelles</a>
 				</li>
 				<li class="text-left text-xs text-gray-300 md:text-xl leading-relaxed mt-4">
-					<a href="#Data_transfers" class="hover:underline">Vos droits</a>
+					<a href="#Rights" class="hover:underline">Vos droits</a>
 				</li>
 				<li class="text-left text-xs text-gray-300 md:text-xl leading-relaxed mt-4">
-					<a href="#Service_providers" class="hover:underline">Révision de la présente politique</a>
+					<a href="#Revision" class="hover:underline">Révision de la présente politique</a>
 				</li>
 				<li class="text-left text-xs text-gray-300 md:text-xl leading-relaxed mt-4">
-					<a href="#Data_security" class="hover:underline">Annexe 1 : description de vos droits sur les données traitées</a>
+					<a href="#Annex1" class="hover:underline">Annexe 1 : description de vos droits sur les données traitées</a>
 				</li>
 			</ul>
 		</div>
@@ -328,7 +353,7 @@
 	</div>
 </section>
 
-<section id="engagements" class="w-full py-20 bg-[#181818] text-white">
+<section id="Engagements" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Nos engagements quant à vos données personnelles
@@ -422,7 +447,7 @@
 	</div>
 </section>
 
-<section id="rights" class="w-full py-20 bg-[#181818] text-white">
+<section id="Rights" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Vos droits
@@ -504,7 +529,7 @@
 	</div>
 </section>
 
-<section id="revision" class="w-full py-20 bg-[#181818] text-white">
+<section id="Revision" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
 		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Révision de la présente politique
@@ -517,7 +542,7 @@
 	</div>
 </section>
 
-<section id="annex1" class="w-full py-20 bg-[#181818] text-white">
+<section id="Annex1" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
 		<div class="bg-[#1C1C1C] rounded-lg p-4">
 				<div class="flex flex-row justify-between items-center">
@@ -539,15 +564,21 @@
 						<TableBodyRow class="border-b border-[#F9B333]">
 							<TableBodyCell class="align-top bg-[#1C1C1C] break-words whitespace-normal text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify border-b border-[#F9B333]">{item.name}</TableBodyCell>
 							<TableBodyCell class="align-top bg-[#1C1C1C] break-words whitespace-normal text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify border-b border-[#F9B333]">
-								{#if Array.isArray(item.definition)}
-								<ul class="list-disc list-inside space-y-2">
-									{#each item.definition as def}
-									<li>{def}</li>
-									{/each}
-								</ul>
-								{:else}
-								{item.definition}
-								{/if}
+							{#if Array.isArray(item.definition)}
+								{#each item.definition as def}
+									{#if Array.isArray(def) && !(def instanceof String)}
+										<ul class="list-disc list-inside space-y-2">
+											{#each def as subdef}
+												<li>{subdef}</li>
+											{/each}
+										</ul>
+									{:else}
+										<p>{def}</p>
+									{/if}
+								{/each}
+							{:else}
+								<p>{item.definition}</p>
+							{/if}
 							</TableBodyCell>
 						</TableBodyRow>
 						{/each}
