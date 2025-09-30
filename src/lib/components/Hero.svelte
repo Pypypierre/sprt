@@ -42,8 +42,8 @@
     >
       <img src={slide.image} alt={slide.title} class="w-full h-full object-cover ${slide.objectPosition}" />
       <div class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center text-white px-4">
-        <h1 class="text-4xl md:text-6xl font-bold mb-4">{slide.title}</h1>
-        <p class="text-lg md:text-2xl">{slide.subtitle}</p>
+        <h1 class="text-4xl md:font-bold text-7xl mb-4">{slide.title}</h1>
+        <p class="text-lg md:text-4xl">{slide.subtitle}</p>
       </div>
     </div>
   {/each}
