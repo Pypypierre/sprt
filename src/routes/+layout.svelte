@@ -188,10 +188,10 @@
 	>
 		<div class="w-[90%] mx-auto flex flex-col items-center">
 			<div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 w-fit max-w-full mx-auto text-center">
-				<a href="/#concept" class="text-base">Concept</a>
-				<a href="/#values" class="text-base">Nos valeurs</a>
-				<a href="/#who_we_are" class="text-base">Qui sommes nous</a>
-				<a href="/contact" class="text-base">Nous contacter</a>
+				<a href="/#concept" class="text-xl">Concept</a>
+				<a href="/#values" class="text-xl">Nos valeurs</a>
+				<a href="/#who_we_are" class="text-xl">Qui sommes nous</a>
+				<a href="/contact" class="text-xl">Nous contacter</a>
 			</div>
 			{#if $scrolled}
 				<button 
