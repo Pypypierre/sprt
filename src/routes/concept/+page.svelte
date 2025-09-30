@@ -5,7 +5,7 @@
 		</h2>
 		<div class="flex flex-wrap md:flex-nowrap items-center pt-5">
 			<div class="hidden md:flex laptop:flex-1 justify-center">
-				<img src="concept/intro.jpg" alt="Screenshot trading app" class="w-full max-w-md rounded-lg shadow-lg mt-6 md:mt-0" />
+				<img src="concept/intro.png" alt="Screenshot trading app" class="w-full max-w-md rounded-lg shadow-lg mt-6 md:mt-0" />
 			</div>
 			<lu id="paraph" class="flex-1 md:text-xl space-y-6">
 				<li class="text-gray-300 text-xl md:text-xl leading-relaxed space-y-4">
