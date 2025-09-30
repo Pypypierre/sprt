@@ -5,8 +5,7 @@
   const slides = [
     {
       image: '/hero/slide_1.jpg',
-      title: '190 %',
-      subtitle: 'Réalisés sur 2025',
+      title: '190 % réalisés sur 2025',
 	  objectPosition: 'object-center'
     },
     {
@@ -17,8 +16,7 @@
     },
     {
       image: '/hero/slide_3.jpg',
-      title: 'Notre équipe s\'agrandit',
-      subtitle: '300 nouvelles places à venir',
+      title: '300 nouvelles places à venir',
 	  objectPosition: 'object-center'
     },
   ];
