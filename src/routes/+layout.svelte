@@ -10,7 +10,7 @@
 	const scrolled = writable(false);
 	const footerVisible = writable(false);
 	const isFirstLoad = writable(true);
-  	
+	const OnMobile = writable(false);
 	const isOpen = writable(false);
 
 	function toggleMobileMenu() {
@@ -62,7 +62,6 @@
 			isFirstLoad.set(false);
 		}, 1000);
 
-		handleScroll();
 		window.addEventListener('scroll', handleScroll);
 
 		const footer = document.getElementById('footer');
@@ -80,10 +79,16 @@
 			observer.observe(footer);
 		}
 
+		const mq = window.matchMedia('(max-width: 640px)');
+    	const update = () => OnMobile.set(mq.matches);
+    	update();
+    	mq.addEventListener('change', update);
+
 		return () => {
 			window.removeEventListener('scroll', handleScroll);
 			if (footer) observer.unobserve(footer);
 			clearTimeout(timer);
+			mq.removeEventListener('change', update);
 		};
 	});
 
@@ -113,12 +118,15 @@
 		class:opacity-100={!$footerVisible}
 	>
 		<div class="w-[90%] flex items-center justify-between mx-auto">
-			<div class="flex items-center space-x-4 bg-black p-2 rounded-lg lg:rounded-none lg:bg-transparent">
+			<div class="flex items-center space-x-4 p-2 rounded-lg md:opacity-100 lg:rounded-none lg:bg-transparent"
+				class:bg-black={$scrolled && !$OnMobile}
+				class:opacity-0={$scrolled && $OnMobile}
+			>
 				 <a href="/" class="block">
-					<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto" />
+					<img src="sprt-logo.png" alt="Logo Sprt" class="h-32 w-auto"/>
 				</a>
 			</div>
-			<nav class="hidden lg:flex space-x-4 text-lg pl-5 tracking-widest font-bold uppercase items-center"> 
+			<nav class="hidden lg:flex space-x-4 text-lg pl-5 tracking-widest font-bold uppercase items-center">
 				<a href="/#concept" onclick={(event: Event) => scrollToValues(event, "concept")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Le concept</a>
 				<a href="/#values" onclick={(event: Event) => scrollToValues(event, "values")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Nos valeurs</a>
 				<a href="/#who_we_are" onclick={(event: Event) => scrollToValues(event, "who_we_are")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300">Qui sommes nous</a>
