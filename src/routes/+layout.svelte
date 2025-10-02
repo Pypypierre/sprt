@@ -113,6 +113,7 @@
 
 <svelte:head>
 	<link rel="icon" type="image/jpg" href="/favicon.jpg" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Sprt</title>
 </svelte:head>
 
