@@ -542,49 +542,81 @@
 	</div>
 </section>
 
-<section id="Annex1" class="w-full py-20 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<div class="bg-[#1C1C1C] rounded-lg p-4">
-				<div class="flex flex-row justify-between items-center">
-					<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 mt-6 text-left">
-						Annexe 1 : description de vos droits sur les données traitées
-					</h2>
-					<button class="bg-yellow-400 text-black font-bold py-2 px-4 mb-6 mt-6 rounded mb-6 hover:bg-yellow-500" on:click={() => showTab()}>
-						{#if tab}Masquer l'annexe{:else}Voir l'annexe{/if}
-					</button>
-				</div>
-				{#if tab}
-				<Table>
-					<TableHead>
-						<TableHeadCell class="w-1/3 text-base md:text-xl text-white font-bold text-left bg-[#1C1C1C] border border-[#F9B333]">Droit</TableHeadCell>
-						<TableHeadCell class="w-2/3 text-base md:text-xl text-white font-bold text-left bg-[#1C1C1C] border border-[#F9B333]">Qu'est-ce que cela signifie ?</TableHeadCell>
-					</TableHead>
-					<TableBody>
-						{#each items as item}
-						<TableBodyRow class="border-b border-[#F9B333]">
-							<TableBodyCell class="align-top bg-[#1C1C1C] break-words whitespace-normal text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify border-b border-[#F9B333]">{item.name}</TableBodyCell>
-							<TableBodyCell class="align-top bg-[#1C1C1C] break-words whitespace-normal text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-10 text-justify border-b border-[#F9B333]">
-							{#if Array.isArray(item.definition)}
-								{#each item.definition as def}
-									{#if Array.isArray(def) && !(def instanceof String)}
-										<ul class="list-disc list-inside space-y-2">
-											{#each def as subdef}
-												<li>{subdef}</li>
-											{/each}
-										</ul>
-									{:else}
-										<p>{def}</p>
-									{/if}
-								{/each}
-							{:else}
-								<p>{item.definition}</p>
-							{/if}
-							</TableBodyCell>
-						</TableBodyRow>
-						{/each}
-					</TableBody>
-				</Table>
-				{/if}
-			</div>
-		</div>
+<section id="Annex1" class="w-full py-20 bg-[#181818] text-white" lang="fr">
+  <div class="w-[90%] mx-auto max-w-[80%]">
+    <div class="bg-[#1C1C1C] rounded-lg p-4 overflow-hidden">
+      <div class="flex flex-row flex-wrap items-center gap-4">
+        <h2 class="flex-1 min-w-0 text-base md:text-4xl text-[#F9B333] font-bold my-6 text-left">
+          Annexe 1 : description de vos droits sur les données traitées
+        </h2>
+        <button
+          class="bg-yellow-400 text-black font-bold py-2 px-4 my-6 rounded hover:bg-yellow-500 shrink-0 whitespace-nowrap"
+          on:click={() => showTab()}>
+          {#if tab}Masquer l'annexe{:else}Voir l'annexe{/if}
+        </button>
+      </div>
+
+      {#if tab}
+        <div class="md:hidden space-y-4">
+          {#each items as item}
+            <details class="rounded-lg border border-[#F9B333] p-4">
+              <summary class="cursor-pointer text-[#F9B333] font-semibold leading-snug">{item.name}</summary>
+              <div class="mt-3 text-gray-300 text-sm leading-relaxed space-y-3 break-words">
+                {#if Array.isArray(item.definition)}
+                  {#each item.definition as def}
+                    {#if Array.isArray(def)}
+                      <ul class="list-disc list-inside space-y-2 pl-4">
+                        {#each def as subdef}<li>{subdef}</li>{/each}
+                      </ul>
+                    {:else}
+                      <p>{def}</p>
+                    {/if}
+                  {/each}
+                {:else}
+                  <p>{item.definition}</p>
+                {/if}
+              </div>
+            </details>
+          {/each}
+        </div>
+
+        <div class="hidden md:block overflow-x-auto max-w-full">
+          <Table class="w-full table-fixed">
+            <TableHead>
+              <TableHeadCell class="w-1/3 text-base md:text-xl text-white font-bold text-left bg-[#1C1C1C] border border-[#F9B333]">
+                Droit
+              </TableHeadCell>
+              <TableHeadCell class="w-2/3 text-base md:text-xl text-white font-bold text-left bg-[#1C1C1C] border border-[#F9B333]">
+                Qu'est-ce que cela signifie ?
+              </TableHeadCell>
+            </TableHead>
+            <TableBody>
+              {#each items as item}
+                <TableBodyRow class="border-b border-[#F9B333]">
+                  <TableBodyCell class="align-top bg-[#1C1C1C] whitespace-normal break-words hyphens-auto text-gray-300 text-base leading-relaxed space-y-2 py-4 border-b border-[#F9B333]">
+                    {item.name}
+                  </TableBodyCell>
+                  <TableBodyCell class="align-top bg-[#1C1C1C] whitespace-normal break-words hyphens-auto text-gray-300 text-base leading-relaxed space-y-3 py-4 border-b border-[#F9B333]">
+                    {#if Array.isArray(item.definition)}
+                      {#each item.definition as def}
+                        {#if Array.isArray(def)}
+                          <ul class="list-disc list-inside space-y-2 pl-4">
+                            {#each def as subdef}<li>{subdef}</li>{/each}
+                          </ul>
+                        {:else}
+                          <p>{def}</p>
+                        {/if}
+                      {/each}
+                    {:else}
+                      <p>{item.definition}</p>
+                    {/if}
+                  </TableBodyCell>
+                </TableBodyRow>
+              {/each}
+            </TableBody>
+          </Table>
+        </div>
+      {/if}
+    </div>
+  </div>
 </section>
