@@ -209,49 +209,20 @@
 				onclick={toggle}
 				aria-controls="mobile-menu"
 				aria-label="Toggle mobile menu"
-				class:hidden={$isOpen_mob}
-			>
-				<svg
-					viewBox="0 -19.04 75.803 75.803"
-					xmlns="http://www.w3.org/2000/svg"
-					fill="#000000"
-					stroke="#000000"
-					stroke-width="0.00075803"
-					transform={$isOpen_mob ? "rotate(180)" : "rotate(0)"}
-					class="w-10 h-10"
-					style="display: block;"
 				>
-					<g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-					<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="2.122484"></g>
-					<g id="SVGRepo_iconCarrier">
-						<g id="Group_66" data-name="Group 66" transform="translate(-619.375 -560.018)">
-							<path id="Path_58" data-name="Path 58" d="M695.178,596.248a1.5,1.5,0,0,1-2.561,1.061l-33.56-33.557a2.53,2.53,0,0,0-3.564,0l-33.558,33.557a1.5,1.5,0,0,1-2.121-2.121l33.557-33.557a5.531,5.531,0,0,1,7.808,0l33.559,33.557A1.494,1.494,0,0,1,695.178,596.248Z" fill="#F9B333"></path> 
-						</g> 
-					</g>
-				</svg>
-			</button>
-						<button
-				class="absolute flex items-center justify-center rounded-full w-14 h-14 transition bg-black overflow-hidden"
-				onclick={toggle}
-				aria-controls="mobile-menu"
-				aria-label="Toggle mobile menu"
-				class:hidden={!$isOpen_mob}
-			>
-				<svg
-				  xmlns="http://www.w3.org/2000/svg"
-				  viewBox="0 0 24 24"
-				  fill="none"
-				  stroke="#F9B333"
-				  stroke-width="1"
-				  stroke-linecap="round"
-				  stroke-linejoin="round"
-				  class="w-10 h-10"
-				  opacity={$isOpen_mob ? "1" : "0"}
-				  style="display: block;"
-				>
-				  <line x1="18" y1="6" x2="6" y2="18" />
-				  <line x1="6" y1="6" x2="18" y2="18" />
-				</svg>
+				{#if !$isOpen_mob}
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+						stroke="#F9B333" stroke-width="1" stroke-linecap="round"
+					 	class="w-10 h-10" style="display:block;">
+							<path d="M3 6h18M3 12h18M3 18h18" />
+					</svg>
+				{:else}
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+						stroke="#F9B333" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+						class="w-10 h-10" style="display:block;">
+							<path d="M6 6L18 18M6 18L18 6" />
+					</svg>
+				{/if}
 			</button>
 		</div>
 		{#if $isOpen_mob}
