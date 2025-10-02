@@ -1,9 +1,9 @@
-<section id="Intro" class="py-30 tablet:w-full py-20 bg-[#181818] text-white">
+<section id="Intro" class="tablet:w-full py-30 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-center max-w-7xl">
-		<h1 class="text-lg mb-4 tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10">
+		<h1 class="mb-2 text-2xl tablet:mb-4 tablet:text-4xl md:mb-6 text-[#F9B333] font-bold pt-10">
 			Mentions légales
 		</h1>
-		<h2 class="text-base tablet:text-2xl text-white font-bold mb-6 pt-10">
+		<h2 class="text-left text-lg tablet:text-2xl text-white font-bold md:mb-6 md:pt-10">
 			En vigueur au 1er octobre 2025
 		</h2>
 		<div class="flex flex-col md:items-center pt-5">
@@ -20,9 +20,9 @@
 	</div>
 </section>
 
-<section id="Editor" class="w-full py-20 bg-[#181818] text-white">
+<section id="Editor" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Éditeur
 		</h2>
 		<div class="flex flex-col md: items-center pt-5">
@@ -36,9 +36,9 @@
 	</div>
 </section>
 
-<section id="Host" class="w-full py-20 bg-[#181818] text-white">
+<section id="Host" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Hébergeur
 		</h2>
 		<div class="flex flex-col items-start pt-5 text-justify">
@@ -49,9 +49,9 @@
 	</div>
 </section>
 
-<section id="Object" class="w-full py-20 bg-[#181818] text-white">
+<section id="Object" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Vos droits à l'égard de vos données personnelles
 		</h2>
 		<div class="flex flex-col items-center pt-5 text-center">
@@ -87,9 +87,9 @@
 	</div>
 </section>
 
-<section id="Access_Conditions" class="w-full py-20 bg-[#181818] text-white">
+<section id="Access_Conditions" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			CONDITION D'ACCES
 		</h2>
 		<div class="pt-5 text-justify">
@@ -118,9 +118,9 @@
 	</div>
 </section>
 
-<section id="General_Warning" class="w-full py-20 bg-[#181818] text-white">
+<section id="General_Warning" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			MISE EN GARDE GENERALE
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4 text-justify">
@@ -153,9 +153,9 @@
 	</div>
 </section>
 
-<section id="Risk_coverage" class="w-full py-20 bg-[#181818] text-white">
+<section id="Risk_coverage" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Absence de couverture des risques
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
@@ -176,9 +176,9 @@
 	</div>
 </section>
 
-<section id="Service_providers" class="w-full py-20 bg-[#181818] text-white">
+<section id="Service_providers" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Décharge
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
@@ -196,9 +196,9 @@
 	</div>
 </section>
 
-<section id="Intellectual_property" class="w-full py-20 bg-[#181818] text-white">
+<section id="Intellectual_property" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Propriété intellectuelle
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4">
@@ -213,9 +213,9 @@
 	</div>
 </section>
 
-<section id="Responsabilité" class="w-full py-20 bg-[#181818] text-white">
+<section id="Responsabilité" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Responsabilité
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4">
@@ -230,9 +230,9 @@
 	</div>
 </section>
 
-<section id="Compatibilité" class="w-full py-20 bg-[#181818] text-white">
+<section id="Compatibilité" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Compatibilité
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4">
@@ -244,9 +244,9 @@
 	</div>
 </section>
 
-<section id="Unauthorized_use" class="w-full py-20 bg-[#181818] text-white">
+<section id="Unauthorized_use" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Utilisation non autorisée du site web
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
@@ -275,9 +275,9 @@
 	</div>
 </section>
 
-<section id="Personal_data" class="w-full py-20 bg-[#181818] text-white">
+<section id="Personal_data" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Données personnelles
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
@@ -292,9 +292,9 @@
 	</div>
 </section>
 
-<section id="Dispute_resolution" class="w-full py-20 bg-[#181818] text-white">
+<section id="Dispute_resolution" class="w-full py-2 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			En cas de litige
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">
@@ -324,9 +324,9 @@
 	</div>
 </section>
 
-<section id="Droit applicable" class="w-full py-20 bg-[#181818] text-white">
+<section id="Droit applicable" class="w-full py-2 pb-10 md:py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-7xl">
-		<h2 class="text-base tablet:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-lg tablet:text-4xl text-[#F9B333] font-bold mb-2 pt-2 md:mb-6 md:pt-10 text-center">
 			Droit applicable
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4 mt-4">

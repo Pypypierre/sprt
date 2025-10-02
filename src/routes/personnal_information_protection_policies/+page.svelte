@@ -54,8 +54,8 @@
 	<h2 class="text-4xl text-[#F9B333] font-bold mb-6">
 	  Politique sur la protection des données personnelles
 	</h2>
-	<div class="flex flex-wrap justify-center items-stretch gap-6 text-center pt-10">
-	  <div class="h-full flex flex-col justify-between border border-yellow-400 max-w-xs w-full rounded-lg p-6 hover:bg-yellow-400/10 transition">
+	<div class="grid grid-cols-1 sm:grid-cols-2 items-stretch gap-6 text-center pt-10">
+	  <div class="border border-yellow-400 rounded-lg p-6 hover:bg-yellow-400/10 transition h-full flex flex-col justify-between">
 		<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 mx-auto mb-4 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 		  <path stroke-linecap="round" stroke-linejoin="round" d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
 		</svg>
@@ -63,7 +63,7 @@
 		<p class="text-sm text-gray-400">Il se peut que nous transférions vos données personnelles à nos prestataires afin de vous fournir des produits et services adaptés. Elles ne seront utilisées qu'aux seules fins convenues et préalablement acceptées, et non à des fins commerciales.</p>
 	  </div>
 
-	  <div class="h-full flex flex-col justify-between border border-yellow-400 max-w-xs w-full rounded-lg p-6 hover:bg-yellow-400/10 transition">
+	  <div class="border border-yellow-400 rounded-lg p-6 hover:bg-yellow-400/10 transition h-full flex flex-col justify-between">
 		<svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 mx-auto mb-4 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
 		  <path stroke-linecap="round" stroke-linejoin="round" d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8S1 12 1 12z" />
 		  <circle cx="12" cy="12" r="3" />
@@ -80,10 +80,10 @@
 		<h1 class="text-lg mb-4 md:text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Politique de confidentialité
 		</h1>
-		<h2 class="text-base md:text-2xl text-white font-bold mb-6 pt-10">
+		<h2 class="text-base md:text-xl text-white font-bold mb-6 pt-10">
 			Dernière mise à jour : 24 septembre 2025
 		</h2>
-		<h2 class="text-base md:text-2xl text-white text-left font-bold mb-6 pt-10">
+		<h2 class="text-base md:text-xl text-white text-left font-bold mb-6 pt-10">
 			Sommaire:
 		</h2>
 		<ul class=" md:items-left list-disc list-inside">
@@ -115,7 +115,7 @@
 
 <section id="Intro" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Introduction
 		</h2>
 		<div class="flex flex-col md: items-center pt-5">
@@ -134,7 +134,7 @@
 
 <section id="Definitions" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Définitions
 		</h2>
 		<div class="pt-5 text-justify">
@@ -170,10 +170,10 @@
 
 <section id="DataProcessingFramework" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Présentation du cadre dans lequel sont effectués les traitements de données personnelles par SPRT Society
 		</h2>
-		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+		<h3 class="text-base md:text-xl text-white font-bold mb-6 pt-10 text-left">
 			Cadre général de la politique
 		</h3>
 		<div class="pt-5 text-justify">
@@ -192,7 +192,7 @@
 				</li>
 			</ul>
 		</div>
-		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+		<h3 class="text-base md:text-xl text-white font-bold mb-6 pt-10 text-left">
 			Les personnes concernées
 		</h3>
 		<div class="pt-5 text-justify">
@@ -204,7 +204,7 @@
 					D’une part les clients de SPRT Society (ou leurs héritiers ou ayants-droits), les représentants, actionnaires ou bénéficiaires effectifs desdits clients, leurs prospects ainsi plus généralement que les personnes qui visitent leurs sites internet ou leur/nous communiquent par le moyen de leur choix des coordonnées aux fins de la fourniture à leur profit ou à celui de tiers de service en lien avec les activités de SPRT Society. Les données peuvent être collectées soit directement auprès de vous/de tiers mandatés par vous pour nous les transmettre, les organismes de lutte contre la fraude, les autorités ou institutions, …
 				</li>
 				<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
-					<p> D’autre part et par exemple (sans que la présente liste ait vocation à l’exhaustivité) si vous :</p>
+					D’autre part et par exemple (sans que la présente liste ait vocation à l’exhaustivité) si vous :
 					<ul class="list-disc list-inside">
 						<li class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
 							Travaillez avec nous à titre de fournisseur, de prestataire de services ou de sous-traitant ;
@@ -222,7 +222,7 @@
 				</li>
 			</ul>
 		</div>
-		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+		<h3 class="text-base md:text-xl text-white font-bold mb-6 pt-10 text-left">
 			Nature des données concernées
 		</h3>
 		<div class="pt-5 text-justify">
@@ -259,7 +259,7 @@
 				</li>
 			</ul>
 		</div>
-		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+		<h3 class="text-base md:text-xl text-white font-bold mb-6 pt-10 text-left">
 			Modalités de collecte
 		</h3>
 		<div class="pt-5 text-justify">
@@ -290,7 +290,7 @@
 				</li>
 			</ul>
 		</div>
-		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+		<h3 class="text-base md:text-xl text-white font-bold mb-6 pt-10 text-left">
 			finalités de traitement des données collectées
 		</h3>
 		<div class="pt-5 text-justify">
@@ -333,7 +333,7 @@
 				</li>
 			</ul>
 		</div>
-		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+		<h3 class="text-base md:text-xl text-white font-bold mb-6 pt-10 text-left">
 			Licéité des traitements concernés
 		</h3>
 		<div class="pt-5 text-justify">
@@ -355,10 +355,10 @@
 
 <section id="Engagements" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Nos engagements quant à vos données personnelles
 		</h2>
-		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+		<h3 class="text-base md:text-xl text-white font-bold mb-6 pt-10 text-left">
 			Assurer la protection de vos données
 		</h3>
 		<div class="pt-5 text-justify">
@@ -391,7 +391,7 @@
 				Il est toutefois rappelé que, compte tenu des caractéristiques intrinsèques de l’Internet, les données éventuellement transmises via les sites Internet dont nous sommes titulaires/ qui nous sont transmises via les réseaux font l’objet de mesures qui ne peuvent prémunir de tous les risques de détournement et/ou de piratage, ce dont SPRT Society ne saurait être tenue pour responsable.
 			</p>
 		</div>
-		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+		<h3 class="text-base md:text-xl text-white font-bold mb-6 pt-10 text-left">
 			Ne pas faire commerce de vos données traitées
 		</h3>
 		<div class="pt-5 text-justify">
@@ -402,7 +402,7 @@
 				Elles ne seront utilisées qu'aux seules fins convenues/ justifiant de leur traitement par SPRT Society, et non à des fins commerciales. En tout état de cause, nous nous engageons à ne vendre aucune donnée à caractère personnel à des tiers.
 			</p>
 		</div>
-		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+		<h3 class="text-base md:text-xl text-white font-bold mb-6 pt-10 text-left">
 			Ne pas conserver inutilement vos données
 		</h3>
 		<div class="pt-5 text-justify">
@@ -433,7 +433,7 @@
 				Plus généralement, nous ne conservons les données à caractère personnel que pendant la durée raisonnablement requise (par application du référentiel précité ou par référence à celui-ci pour les traitements non encore identifiés et intégrés dans ce dispositif) pour la réalisation des finalités telles que mentionnées dans la présente Politique. Pour mémoire, nous pouvons être amenés à conserver des données collectées pour répondre à une finalité même après le terme de celle-ci si cette conservation se justifie par une finalité différente, par exemple pour répondre à des besoins juridiques, réglementaires, fiscaux ou comptables. Ce serait par exemple le cas dans l’hypothèse de la survenance avérée/ raisonnablement probable d’un litige au terme d’une relation contractuelle, et ce pour des durées alors conformes aux besoins de la finalité spécifique que constituerait un tel contentieux.
 			</p>
 		</div>
-		<h3 class="text-base md:text-2xl text-white font-bold mb-6 pt-10 text-left">
+		<h3 class="text-base md:text-xl text-white font-bold mb-6 pt-10 text-left">
 			Prendre les précautions nécessaires en cas de transfert éventuel de vos données
 		</h3>
 		<div class="pt-5 text-justify">
@@ -449,7 +449,7 @@
 
 <section id="Rights" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Vos droits
 		</h2>
 		<div class="flex flex-col md: items-left pt-5">
@@ -531,7 +531,7 @@
 
 <section id="Revision" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Révision de la présente politique
 		</h2>
 		<div class="flex flex-col md: items-center pt-5">
@@ -546,7 +546,7 @@
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
 		<div class="bg-[#1C1C1C] rounded-lg p-4">
 				<div class="flex flex-row justify-between items-center">
-					<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 mt-6 text-left">
+					<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 mt-6 text-left">
 						Annexe 1 : description de vos droits sur les données traitées
 					</h2>
 					<button class="bg-yellow-400 text-black font-bold py-2 px-4 mb-6 mt-6 rounded mb-6 hover:bg-yellow-500" on:click={() => showTab()}>
@@ -556,8 +556,8 @@
 				{#if tab}
 				<Table>
 					<TableHead>
-						<TableHeadCell class="w-1/3 text-base md:text-2xl text-white font-bold text-left bg-[#1C1C1C] border border-[#F9B333]">Droit</TableHeadCell>
-						<TableHeadCell class="w-2/3 text-base md:text-2xl text-white font-bold text-left bg-[#1C1C1C] border border-[#F9B333]">Qu'est-ce que cela signifie ?</TableHeadCell>
+						<TableHeadCell class="w-1/3 text-base md:text-xl text-white font-bold text-left bg-[#1C1C1C] border border-[#F9B333]">Droit</TableHeadCell>
+						<TableHeadCell class="w-2/3 text-base md:text-xl text-white font-bold text-left bg-[#1C1C1C] border border-[#F9B333]">Qu'est-ce que cela signifie ?</TableHeadCell>
 					</TableHead>
 					<TableBody>
 						{#each items as item}

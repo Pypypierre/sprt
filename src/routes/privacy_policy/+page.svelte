@@ -6,7 +6,7 @@
 		<h2 class="text-base md:text-2xl text-white font-bold mb-6 pt-10">
 			Dernière mise à jour : 24 septembre 2025
 		</h2>
-		<h2 class="text-base md:text-2xl text-white text-left font-bold mb-6 pt-10">
+		<h2 class="text-md md:text-2xl text-white text-left font-bold mb-6 pt-10">
 			Sommaire:
 		</h2>
 		<ul class="flex flex-col md:items-left pt-5">
@@ -49,7 +49,7 @@
 
 <section id="Intro" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Introduction
 		</h2>
 		<div class="flex flex-col md: items-center pt-5">
@@ -74,7 +74,7 @@
 
 <section id="Covered_data" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Quelles sont les données couvertes ? 
 		</h2>
 		<div class="flex flex-col items-start pt-5 text-justify">
@@ -90,11 +90,11 @@
 
 <section id="Intro" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Vos droits à l'égard de vos données personnelles
 		</h2>
 		<div class="flex flex-col items-center pt-5 text-center">
-			<h3 class="text-sm md:text-2xl text-white font-bold mb-4">
+			<h3 class="text-sm tablet:text-gray-300 text-xl md:text-2xl text-white font-bold mb-4">
 				Vous jouissez de droits à l'égard de vos données personnelles, lesquels sont :
 			</h3>
 			<ul id="paraph" class="flex-1 md:text-xl space-y-6 text-justify">
@@ -129,7 +129,7 @@
 
 <section id="Complaints" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-right max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Réclamations
 		</h2>
 		<div class="pt-5 text-justify">
@@ -145,10 +145,10 @@
 
 <section id="Use_of_personal_data" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Fins auxquelles nous traitons les données à caractère personnel
 		</h2>
-		<h3 class="text-2xl font-bold mb-4 text-center">
+		<h3 class="text-left text-sm md:text-xl lg:text-2xl font-bold mb-4 text-center">
 			1. Les visiteurs du site sprt-society.com
 		</h3>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify text-justify">
@@ -238,7 +238,7 @@
 				Notre intérêt légitime à développer et à améliorer notre site ainsi que votre expérience utilisateur ;
 			</li>
 		</ul>
-		<h3 class="text-2xl font-bold mb-4 text-center mt-10">
+		<h3 class="text-left text-sm md:text-xl lg:text-2xl font-bold mb-4 text-center mt-10">
 			2. Clients
 		</h3>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
@@ -333,7 +333,7 @@
 				Notre intérêt légitime à protéger SPRT Society contre toute utilisation inopinée de produits d’activités criminelles ou participation à quelque autre activité illégale ou frauduleuse que ce soit (telle que le terrorisme).
 			</li>
 		</ul>
-		<h3 class="text-2xl font-bold mb-4 text-center  mt-10">
+		<h3 class="text-left text-sm md:text-xl lg:text-2xl font-bold mb-4 text-center  mt-10">
 			3. Contacts de nos systèmes de gestion de la relation client (CRM)
 		</h3>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
@@ -370,7 +370,7 @@
 				Notre intérêt légitime à entretenir des relations avec nos contacts et à fournir des informations sur SPRT Society, nos services et les événements que nous organisons.
 			</li>
 		</ul>
-		<h3 class="text-2xl font-bold mb-4 text-center mt-10">
+		<h3 class="text-left text-sm md:text-xl lg:text-2xl font-bold mb-4 text-center mt-10">
 			4. Utilisateurs de nos réseaux sociaux
 		</h3>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
@@ -385,7 +385,7 @@
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
 			Des fonctions du service Instagram ou LinkedIn sont installées sur notre Site. Si vous êtes connecté à votre compte Instagram ou LinkedIn, vous pouvez cliquer sur le bouton correspondant pour lier le contenu de nos pages à votre profil. En d’autres termes, Instagram ou LinkedIn peuvent associer vos visites sur nos pages à votre compte utilisateur. Si vous n’êtes pas connecté à votre compte, vous pouvez ouvrir la page de connexion au réseau en question et saisir vos identifiants en cliquant sur un bouton Instagram ou LinkedIn. Nous tenons à souligner que nous ne connaissons en aucun cas le contenu des données transmises à Instagram ni la façon dont celles-ci sont utilisées.
 		</p>
-		<h3 class="text-2xl font-bold mb-4 text-center mt-10">
+		<h3 class="text-left text-sm md:text-xl lg:text-2xl font-bold mb-4 text-center mt-10">
 			5. Personnes correspondant avec SPRT Society par courrier électronique
 		</h3>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
@@ -404,7 +404,7 @@
 	
 	<section id="Data_transfers" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Transferts de données personnelles
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
@@ -418,7 +418,7 @@
 
 <section id="Service_providers" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Prestataires en assistance
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
@@ -432,7 +432,7 @@
 
 <section id="Data_security" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			La sécurité
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4">
@@ -443,7 +443,7 @@
 
 <section id="Data_update" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Mise à jour de vos données
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4">
@@ -454,7 +454,7 @@
 
 <section id="Data_retention" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Conservation
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4">
@@ -468,7 +468,7 @@
 
 <section id="Minors" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Mineurs
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
@@ -479,7 +479,7 @@
 
 <section id="Privacy_policy_changes" class="w-full py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center laptop:text-justify max-w-[80%]">
-		<h2 class="text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
+		<h2 class="text-left text-base md:text-4xl text-[#F9B333] font-bold mb-6 pt-10 text-center">
 			Modifications de cette déclaration de confidentialité
 		</h2>
 		<p class="text-xs tablet:text-gray-300 text-xl md:text-xl leading-relaxed space-y-4 mt-4  text-justify">
