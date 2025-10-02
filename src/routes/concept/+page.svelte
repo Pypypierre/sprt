@@ -43,7 +43,7 @@
 		</h2>
 		<div class="mx-auto overflow-hidden ">
 			<div class="md:flex gap-12 items-stretch">
-				<div class="mt-10 md:mt-0 flex-1 flex items-center justify-center">
+				<div class="mb-10 md:mb-0 flex-1 flex items-center justify-center">
 						<lu id="paraph" class="ml-10 flex-1 md:text-xl space-y-6">
 							<li class="text-gray-300 md:text-xl leading-relaxed space-y-4">
 								Votre argent reste sur votre wallet, nous n’y avons pas accès
