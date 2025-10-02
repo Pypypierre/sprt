@@ -166,7 +166,7 @@
 				<button
 					type="button"
 					aria-label="Close mobile menu overlay"
-					class="fixed left-0 right-0 bottom-0 top-36 bg-black/50 backdrop-blur-sm z-40 transition-opacity duration-300"
+					class="fixed left-0 right-0 bottom-0 top-36 z-40 transition-opacity duration-300"
 					class:opacity-100={$isOpen}
 					class:opacity-0={!$isOpen}
 					class:pointer-events-auto={$isOpen}
@@ -203,6 +203,7 @@
 	>
 		<div class="w-[90%] mx-auto flex items-center pb-10 justify-center py-2"
 		class:pb-10={!$isOpen_mob}
+		class:mb-10={!$isOpen_mob}
 		class:pb-5={$isOpen_mob}>
 			<button
 				class="absolute flex items-center justify-center rounded-full w-14 h-14 transition bg-black overflow-hidden"
