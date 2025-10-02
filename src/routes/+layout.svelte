@@ -288,14 +288,14 @@
 <footer id="footer" class="text-white px-6 py-4 flex flex-col items-center pb-5 pt-5">
 	<div class="w-[90%] flex items-center justify-between mx-auto pb-10">
 		<nav class="flex flex-wrap justify-center md:justify-center gap-x-8 gap-y-4 text-lg tracking-widest pt-10"> 
-			<a href="/#concept" onclick={(event: Event) => scrollToValues(event, "concept")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Le concept</a>
-			<a href="/#values" onclick={(event: Event) => scrollToValues(event, "values")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Nos valeurs</a>
-			<a href="/#who_we_are" onclick={(event: Event) => scrollToValues(event, "who_we_are")} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Qui sommes nous</a>
-			<a href="/legal_notices" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Mentions légales</a>
-			<a href="/privacy_policy" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Politique de confidentialité</a>
-			<a href="/personnal_information_protection_policies" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Politique de protection des données</a>
-			<a href="/downloads/FORMULAIRE-DE-RÉTRACTATION.pdf" target="_blank" class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Se rétracter</a>
-			<a href="/contact" onclick={(event: Event) => window.scrollTo(0, 0)} class="relative pb-0.5 border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Nous contacter</a>
+			<a href="/#concept" onclick={(event: Event) => scrollToValues(event, "concept")} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Le concept</a>
+			<a href="/#values" onclick={(event: Event) => scrollToValues(event, "values")} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Nos valeurs</a>
+			<a href="/#who_we_are" onclick={(event: Event) => scrollToValues(event, "who_we_are")} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Qui sommes nous</a>
+			<a href="/legal_notices" class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Mentions légales</a>
+			<a href="/privacy_policy" class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Politique de confidentialité</a>
+			<a href="/personnal_information_protection_policies" class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Politique de protection des données</a>
+			<a href="/downloads/FORMULAIRE-DE-RÉTRACTATION.pdf" target="_blank" class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Se rétracter</a>
+			<a href="/contact" onclick={(event: Event) => window.scrollTo(0, 0)} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Nous contacter</a>
 		</nav>
 		<div class="hidden md:flex items-center space-x-4">
 			 <a href="/" class="block">
