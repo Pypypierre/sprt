@@ -8,24 +8,28 @@
       Jules Lohnherr et Elyas Akkouh se sont rencontrés sur un forum, et leur entente est devenue un véritable accélérateur.
     </p>
 
-    <div class="grid grid-cols-2 gap-6 md:gap-12 items-start">
-      <div class="flex flex-col items-center text-center">
-        <img src="Jules.jpg" alt="Jules Lohnherr" class="w-48 h-48 rounded-full object-cover mb-4">
-        <h3 class="text-xl font-semibold">Jules Lohnherr</h3>
-        <p class="text-gray-400 mb-2">Fondateur – Président</p>
-        <p class="text-gray-400 max-w-xs text-sm leading-relaxed">
-          Étudiant à CentraleSupélec, Jules gère la relation client et l’exécution des trades, qu’il optimise grâce aux données et aux statistiques.
-        </p>
-      </div>
+	<div class="grid grid-cols-2 gap-6 md:gap-12 items-stretch">
+		<div class="flex flex-col items-center text-center h-full justify-between">
+			<div class="rounded-full overflow-hidden size-28 sm:size-36 md:size-48 shrink-0">
+				<img src="Jules.jpg" alt="Jules Lohnherr" class="w-full h-full object-cover" />
+			</div>
+			<h3 class="text-xl font-semibold mt-4">Jules Lohnherr</h3>
+			<p class="text-gray-400 mb-2">Fondateur – Président</p>
+			<p class="text-gray-400 max-w-xs text-sm leading-relaxed mt-auto">
+				Étudiant à CentraleSupélec, Jules gère la relation client et l’exécution des trades, qu’il optimise grâce aux données et aux statistiques.
+			</p>
+		</div>
 
-      <div class="flex flex-col items-center text-center">
-        <img src="elyas.jpeg" alt="Elyas Akkouh" class="w-48 h-48 rounded-full object-cover mb-4">
-        <h3 class="text-xl font-semibold">Elyas Akkouh</h3>
-        <p class="text-gray-400 mb-2">Fondateur – Directeur Général</p>
-        <p class="text-gray-400 max-w-xs text-sm leading-relaxed">
-          Trader et analyste, Elyas observe et décrypte les mouvements du Bitcoin pour faire émerger des opportunités de positionnement stratégique.
-        </p>
-      </div>
-    </div>
+		<div class="flex flex-col items-center text-center h-full justify-between">
+			<div class="rounded-full overflow-hidden size-28 sm:size-36 md:size-48 shrink-0">
+				<img src="elyas.jpeg" alt="Elyas Akkouh" class="w-full h-full object-cover" />
+			</div>
+			<h3 class="text-xl font-semibold mt-4">Elyas Akkouh</h3>
+			<p class="text-gray-400 mb-2">Fondateur – Directeur Général</p>
+			<p class="text-gray-400 max-w-xs text-sm leading-relaxed mt-auto">
+				Trader et analyste, Elyas observe et décrypte les mouvements du Bitcoin pour faire émerger des opportunités de positionnement stratégique.
+			</p>
+		</div>
+	</div>
   </div>
 </section>
