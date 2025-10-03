@@ -259,15 +259,15 @@
 
 <footer id="footer" class="text-white px-6 py-4 flex flex-col items-center pb-5 pt-5">
 	<div class="pb-2 w-[90%] flex items-center justify-between mx-auto md:pb-10">
-		<nav class="pt-2 text-sm flex flex-wrap justify-center md:justify-center gap-x-8 gap-y-4 md:text-lg tracking-widest md:pt-10"> 
-			<a href="/#concept" onclick={(event: Event) => scrollToValues(event, "concept")} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Le concept</a>
-			<a href="/#values" onclick={(event: Event) => scrollToValues(event, "values")} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Nos valeurs</a>
-			<a href="/#who_we_are" onclick={(event: Event) => scrollToValues(event, "who_we_are")} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Qui sommes nous</a>
-			<a href="/legal_notices" class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Mentions légales</a>
-			<a href="/privacy_policy" class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Politique de confidentialité</a>
-			<a href="/personnal_information_protection_policies" class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Politique de protection des données</a>
-			<a href="/downloads/FORMULAIRE-DE-RÉTRACTATION.pdf" target="_blank" class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Se rétracter</a>
-			<a href="/contact" onclick={(event: Event) => window.scrollTo(0, 0)} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Nous contacter</a>
+		<nav class="pt-2 text-xs flex flex-wrap justify-center md:justify-center gap-x-8 gap-y-4 md:text-lg tracking-widest md:pt-10"> 
+			<a href="/#concept" onclick={(event: Event) => scrollToValues(event, "concept")} class="relative pb-0.5 border-b md:font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Le concept</a>
+			<a href="/#values" onclick={(event: Event) => scrollToValues(event, "values")} class="relative pb-0.5 border-b md:font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Nos valeurs</a>
+			<a href="/#who_we_are" onclick={(event: Event) => scrollToValues(event, "who_we_are")} class="relative pb-0.5 border-b md:font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Qui sommes nous</a>
+			<a href="/legal_notices" class="relative pb-0.5 border-b md:font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Mentions légales</a>
+			<a href="/privacy_policy" class="relative pb-0.5 border-b md:font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Politique de confidentialité</a>
+			<a href="/personnal_information_protection_policies" class="relative pb-0.5 border-b md:font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Politique de protection des données</a>
+			<a href="/downloads/FORMULAIRE-DE-RÉTRACTATION.pdf" target="_blank" class="relative pb-0.5 border-b md:font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Se rétracter</a>
+			<a href="/contact" onclick={(event: Event) => window.scrollTo(0, 0)} class="relative pb-0.5 border-b md:font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Nous contacter</a>
 		</nav>
 		<div class="hidden md:flex items-center space-x-4">
 			 <a href="/" class="block">
@@ -276,7 +276,7 @@
 		</div>
 	</div>
 	<div class="w-[95%] h-[1px] bg-[#F9B333] mb-4">
-	  <p class="text-xs text-center mt-2 md:text-base">
+	  <p class="text-2xs text-center mt-2 md:text-base">
 		SPRT 2025. All rights reserved.
 	  </p>
 	</div>
