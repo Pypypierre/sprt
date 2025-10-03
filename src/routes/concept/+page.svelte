@@ -1,5 +1,5 @@
-<section id="strategies" class="w-full py-40 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-right max-w-7xl">
+<section id="strategies" class="w-full md:!py-40 bg-[#181818] text-white">
+	<div class="text-center mt-30 w-[90%] mx-auto md:!text-right max-w-7xl md:!mt-0">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Notre stratégie, étape par étape
 		</h2>
@@ -36,8 +36,8 @@
   </div>
 </section>
 
-<section id="api-key" class="w-full py-10 bg-[#181818] text-white">
-	<div class="w-[90%] mx-auto text-left max-w-7xl">
+<section id="api-key" class="py-2 w-full md:!py-20 bg-[#181818] text-white">
+	<div class="text-center w-[90%] mx-auto md:!text-left max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			La clé API,<br> de A à Z
 		</h2>
@@ -74,7 +74,7 @@
 	</div>
 </section>
 
-<section id="api-key" class="w-full py-20 bg-[#181818] text-white">
+<section id="api-key" class="py-2 w-full md:!py-20 bg-[#181818] text-white">
 	<div class="w-[90%] mx-auto text-center max-w-7xl">
 		<h2 class="text-4xl text-[#F9B333] font-bold mb-6 pt-10">
 			Bénéficier du service et investir en confiance
@@ -95,7 +95,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="text-center pt-10">
+		<div class="pt-2 pb-4 text-center md:pt-10">
 			<a href="/contact" class="inline-block  mt-6 px-6 py-3 border border-[#F9B333] bg-[#F9B333] text-black font-bold rounded-full hover:bg-black hover:text-white transition">
 				Nous contacter
 			</a>
