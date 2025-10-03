@@ -95,7 +95,7 @@
 				</p>
 			</div>
 		</div>
-		<div class="pt-2 pb-4 text-center md:pt-10">
+		<div class="flex justify-center pt-2 pb-4 text-center md:!justify-start md:pt-10">
 			<a href="/contact" class="inline-block  mt-6 px-6 py-3 border border-[#F9B333] bg-[#F9B333] text-black font-bold rounded-full hover:bg-black hover:text-white transition">
 				Nous contacter
 			</a>
