@@ -258,8 +258,8 @@
 </main>
 
 <footer id="footer" class="text-white px-6 py-4 flex flex-col items-center pb-5 pt-5">
-	<div class="w-[90%] flex items-center justify-between mx-auto pb-10">
-		<nav class="flex flex-wrap justify-center md:justify-center gap-x-8 gap-y-4 text-lg tracking-widest pt-10"> 
+	<div class="pb-2 w-[90%] flex items-center justify-between mx-auto md:pb-10">
+		<nav class="pt-2 text-sm flex flex-wrap justify-center md:justify-center gap-x-8 gap-y-4 md:text-lg tracking-widest md:pt-10"> 
 			<a href="/#concept" onclick={(event: Event) => scrollToValues(event, "concept")} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Le concept</a>
 			<a href="/#values" onclick={(event: Event) => scrollToValues(event, "values")} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Nos valeurs</a>
 			<a href="/#who_we_are" onclick={(event: Event) => scrollToValues(event, "who_we_are")} class="relative pb-0.5 border-b font-bold border-transparent hover:border-b-1 hover:border-yellow-400 transition duration-300 text-center">Qui sommes nous</a>
@@ -276,7 +276,7 @@
 		</div>
 	</div>
 	<div class="w-[95%] h-[1px] bg-[#F9B333] mb-4">
-	  <p class="text-base text-center mt-2">
+	  <p class="text-xs text-center mt-2 md:text-base">
 		SPRT 2025. All rights reserved.
 	  </p>
 	</div>
