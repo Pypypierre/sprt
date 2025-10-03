@@ -53,7 +53,7 @@
 	}
 
 	[id="paraph"] {
-		@apply ml-6 text-gray-300 text-base tablet:text-lg laptop:text-xl desktop:text-2xl text-center laptop:text-justify leading-relaxed;
+		@apply ml-6 text-gray-300 text-base tablet:text-lg laptop:text-xl desktop:text-2xl text-justify leading-relaxed;
 	}
 
 	text {

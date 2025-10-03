@@ -1,6 +1,6 @@
 <section id="values" class="w-full py-20 bg-[#232323] text-white">
   <div class="w-[90%] mx-auto text-left max-w-7xl">
-	<h2 class="text-4xl text-[#F9B333] font-bold mb-6">
+	<h2 class="text-center text-4xl text-[#F9B333] font-bold mb-6 md:text-left">
 	  Une vision, des valeurs, votre confiance
 	</h2>
 	<div id='paraph' class="space-y-4">

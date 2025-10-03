@@ -96,7 +96,7 @@
 			</div>
 		</div>
 		<div class="text-center pt-10">
-			<a href="/contact" class="inline-block  mt-6 px-6 py-3 border border-[#F9B333] bg-[#F9B333] text-black rounded-full hover:bg-black hover:text-white transition">
+			<a href="/contact" class="inline-block  mt-6 px-6 py-3 border border-[#F9B333] bg-[#F9B333] text-black font-bold rounded-full hover:bg-black hover:text-white transition">
 				Nous contacter
 			</a>
 		</div>
