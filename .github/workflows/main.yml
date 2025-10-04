@@ -44,9 +44,10 @@ jobs:
           server: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USER }}
           password: ${{ secrets.SSH_PASSWORD }}
-          port: ${{ secrets.SSH_PORT }}
+          port: 21
           protocol: ftps
           local-dir: public/
           server-dir: ${{ secrets.REMOTE_PATH_DEV }}/
           dangerous-clean-slate: true
+          log-level: verbose
       
