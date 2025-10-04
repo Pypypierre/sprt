@@ -68,7 +68,7 @@
 
   <button
     on:click={scrollPrev}
-    class="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 text-black hover:text-white hover:bg-black p-3 rounded-full shadow-lg transition z-10"
+    class="hidden md:block absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 text-black hover:text-white hover:bg-black p-3 rounded-full shadow-lg transition z-10"
     aria-label="Previous"
   >
     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -78,7 +78,7 @@
 
   <button
     on:click={scrollNext}
-    class="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 text-black hover:text-white hover:bg-black p-3 rounded-full shadow-lg transition z-10"
+    class="hidden md:block absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 text-black hover:text-white hover:bg-black p-3 rounded-full shadow-lg transition z-10"
     aria-label="Next"
   >
     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
