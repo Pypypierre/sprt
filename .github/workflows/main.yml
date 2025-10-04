@@ -44,7 +44,7 @@ jobs:
         with:
           username: ${{ secrets.SSH_USERNAME }}
           server:   ${{ secrets.SSH_HOST }}
-          port:     ${{ secrets.SSHP_PORT }}
+          port:     ${{ secrets.SSH_PORT }}
           password: ${{ secrets.SSH_PASSWORD }}
           # Envoie le contenu du dossier public/ vers ~/www/dev
           local_path:  public/*
