@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./src/**/*.{html,js,svelte,ts}'],
+  content: [
+	'./src/**/*.{html,js,svelte,ts}',
+	"./node_modules/flowbite-svelte/**/*.{svelte,js,ts}",
+],
   theme: {
     extend: {
       fontFamily: {
@@ -8,5 +11,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 }

@@ -1,62 +1,111 @@
 <script lang="ts">
-  import { onMount } from 'svelte';
-  import { writable } from 'svelte/store';
+  import emblaCarouselSvelte from 'embla-carousel-svelte';
+  import Autoplay from 'embla-carousel-autoplay';
 
-  const slides = [
-    {
-      image: '/hero/slide_1.jpg',
-      title: '190 % réalisés sur 2025',
-	  objectPosition: 'object-center'
-    },
-    {
-      image: '/hero/slide_2.jpg',
-      title: '300 personnes',
-      subtitle: 'Utilisent déjà notre service',
-	  objectPosition: 'object-[20%_center]'
-    },
-    {
-      image: '/hero/slide_3.jpg',
-      title: '300 nouvelles places à venir',
-	  objectPosition: 'object-center'
-    },
+  const images = [
+    { src: "/hero/slide_1.jpg", alt: "Slide 1", title: "190 % réalisés sur 2025" },
+    { src: "/hero/slide_2.jpg", alt: "Slide 2", title: "300 personnes", subtitle: "Utilisent déjà notre service"},
+    { src: "/hero/slide_3.jpg", alt: "Slide 3", title: "300 nouvelles places à venir" },
   ];
 
-  let current = writable(0);
+  let emblaApi: any;
+  let selectedIndex = 0;
 
-  onMount(() => {
-    const interval = setInterval(() => {
-      current.update(n => (n + 1) % slides.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  });
+  const options = { loop: true };
+  const plugins = [Autoplay({ delay: 5000, stopOnInteraction: false })];
 
-  const goTo = (index: number) => current.set(index);
+  function onInit(event: CustomEvent) {
+    emblaApi = event.detail;
+    updateSelectedIndex();
+    emblaApi.on('select', updateSelectedIndex);
+  }
+
+  function updateSelectedIndex() {
+    if (emblaApi) {
+      selectedIndex = emblaApi.selectedScrollSnap();
+    }
+  }
+
+  function scrollTo(index: number) {
+    if (emblaApi) emblaApi.scrollTo(index);
+  }
+
+  function scrollPrev() {
+    if (emblaApi) emblaApi.scrollPrev();
+  }
+
+  function scrollNext() {
+    if (emblaApi) emblaApi.scrollNext();
+  }
 </script>
 
-<section class="relative w-full min-h-screen overflow-hidden">
-  {#each slides as slide, i}
-    <div
-      class="absolute inset-0 transition-opacity duration-1000"
-      class:opacity-100={i === $current}
-      class:opacity-0={i !== $current}
-    >
-      <img src={slide.image} alt={slide.title} class="w-full h-full object-cover ${slide.objectPosition}" />
-      <div class="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center text-white px-4">
-        <h1 class="text-4xl font-bold text-6xl mb-4">{slide.title}</h1>
-        <p class="text-lg md:text-3xl">{slide.subtitle}</p>
-      </div>
+<section class="w-full h-[100svh] relative overflow-hidden p-0">
+  <div class="embla h-full" use:emblaCarouselSvelte={{ options, plugins }} on:emblaInit={onInit}>
+    <div class="embla__container h-full">
+      {#each images as image, index (index)}
+        <div class="embla__slide relative h-full">
+          <img 
+            src={image.src} 
+            alt={image.alt}
+            class="w-full h-full object-cover"
+          />
+          <div class="absolute inset-0 bg-black/30"></div>
+          
+          <div class="absolute inset-0 flex flex-col items-center justify-center text-white text-center px-4">
+            <h2 class="text-4xl font-bold text-6xl mb-4">
+              {image.title}
+            </h2>
+			{#if image.subtitle?.length }
+				<p class="text-lg md:text-3xl">
+					{image.subtitle}
+				</p>
+			{/if}
+          </div>
+        </div>
+      {/each}
     </div>
-  {/each}
+  </div>
 
-  <div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex space-x-3">
-    {#each slides as _, i}
+  <button
+    on:click={scrollPrev}
+    class="absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 text-black hover:text-white hover:bg-black p-3 rounded-full shadow-lg transition z-10"
+    aria-label="Previous"
+  >
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+    </svg>
+  </button>
+
+  <button
+    on:click={scrollNext}
+    class="absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 text-black hover:text-white hover:bg-black p-3 rounded-full shadow-lg transition z-10"
+    aria-label="Next"
+  >
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+    </svg>
+  </button>
+
+  <div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 z-10">
+    {#each images as _, index}
       <button
-        on:click={() => goTo(i)}
-        class="w-3 h-3 rounded-full transition"
-        class:bg-yellow-400={i === $current}
-        class:bg-white={i !== $current}
-        aria-label={`Aller à la diapositive ${i + 1}`}
+        on:click={() => scrollTo(index)}
+        class="w-3 h-3 rounded-full transition {selectedIndex === index ? 'bg-white' : 'bg-white/50 hover:bg-white/75'}"
+        aria-label={`Aller à la slide ${index + 1}`}
       ></button>
     {/each}
   </div>
 </section>
+
+<style>
+  .embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+</style>

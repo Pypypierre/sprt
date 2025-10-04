@@ -48,6 +48,8 @@
 		"svelte"
 	],
 	"dependencies": {
+		"embla-carousel-autoplay": "^8.6.0",
+		"embla-carousel-svelte": "^8.6.0",
 		"flowbite": "^3.1.2",
 		"flowbite-svelte": "^1.15.0",
 		"siema": "^1.0.2"
