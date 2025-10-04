@@ -1,0 +1,55 @@
+name: Build & Deploy DEV to OVH (SFTP)
+
+on:
+  push:
+    branches:
+      - dev   # déclenche uniquement sur la branche dev
+  workflow_dispatch: {}  # déclenchement manuel si besoin
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build (SvelteKit SPA)
+        run: npm run build
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: web-dist
+          path: build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: web-dist
+          path: build
+
+      # Déploiement SFTP par mot de passe (sans clé)
+      - name: SFTP Deploy to OVH DEV
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+        with:
+          username: ${{ secrets.SSH_USERNAME }}
+          server:   ${{ secrets.SSH_HOST }}
+          port:     ${{ secrets.SSHP_PORT }}
+          password: ${{ secrets.SSH_PASSWORD }}
+          # Envoie le contenu du dossier build/ vers ~/www/dev
+          local_path:  build/*
+          server_path: ${{ secrets.REMOTE_PATH_DEV }}
+          # Nettoie les anciens fichiers pour rester synchro
+          remove_extra_files: true
+          # Crée le dossier distant s'il n'existe pas
+          mkdir_p: true
