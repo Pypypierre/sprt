@@ -52,4 +52,4 @@ jobs:
           # Nettoie les anciens fichiers pour rester synchro
           delete_remote_files: true
           # Crée le dossier distant s'il n'existe pas
-          mkdir_p: true
+          sftp_only: true
