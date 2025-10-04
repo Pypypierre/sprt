@@ -226,7 +226,7 @@
 				</button>
 			</div>
 		{/if}
-		<div class="w-[90%] mx-auto flex items-center pb-10 justify-center py-2"
+		<div class="w-full flex items-center pb-10 justify-center py-2 rounded-t-4xl"
 		class:pb-10={!$isOpen_mob}
 		class:mb-10={!$isOpen_mob}
 		class:pb-5={$isOpen_mob}
@@ -237,6 +237,7 @@
 			<button
 				class="absolute flex items-center justify-center rounded-full w-14 h-14 transition bg-black overflow-hidden"
 				onclick={toggle}
+				class:opacity-0={$footerVisible}
 				aria-controls="mobile-menu"
 				aria-label="Toggle mobile menu"
 				>
@@ -257,9 +258,9 @@
 		</div>
 		{#if $isOpen_mob}
 			<nav
-			class="w-[90%] mx-auto flex items-center justify-center py-2 bg-black">
-				<div class="w-[90%] mx-auto flex flex-col items-center">
-					<div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 w-fit max-w-full mx-auto text-center">
+			class="w-full flex items-center justify-center py-2 bg-black">
+				<div class="w-[90%] flex flex-col items-center">
+					<div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 w-fit max-w-full text-center">
 						<a href="/#concept" class="text-xl">Concept</a>
 						<a href="/#values" class="text-xl">Nos valeurs</a>
 						<a href="/#who_we_are" class="text-xl">Qui sommes nous</a>
