@@ -11,8 +11,12 @@
 	const footerVisible = writable(false);
 	const isFirstLoad = writable(true);
 	const OnMobile = writable(false);
+	let showScrollButton = writable(false);
 	const isOpen = writable(false);
 	const isOpen_mob = writable(false);
+
+	let lastScrollY = 0;
+	let currentScrollY = 0;
 
 	function toggle () {
 		isOpen_mob.update(v => !v);
@@ -35,7 +39,14 @@
 	}
 	
 	const handleScroll = () => {
+		currentScrollY = window.scrollY;
+		if (currentScrollY < lastScrollY && currentScrollY > 300) {
+    		showScrollButton.set(true);
+    	} else {
+    		showScrollButton.set(false);
+    	}
 		scrolled.set(window.scrollY > 20);
+		lastScrollY = currentScrollY;
 	};
 
 	onMount(() => {
@@ -196,15 +207,33 @@
 			</nav>
 		</div>	
 	</header>
+	
 	<div class="fixed bottom-0 left-0 right-0 z-50 bg-black flex flex-col items-center rounded-t-4xl justify-center bg-transparent sm:hidden"
+
+	>
+		{#if $showScrollButton}
+			<div class="flex w-full justify-end z-60">
+				<button 
+				onclick={scrollToTop}
+				class="mr-10 flex items-center justify-center w-12 h-12 rounded-full border border-[#F9B333] text-[#F9B333] hover:bg-[#F9B333] hover:text-black transition bg-black lg:hidden"
+				class:-mb-15={!$isOpen_mob}
+				class:mb-2={$isOpen_mob}
+				aria-label="Retour en haut"
+				>
+					<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+						<path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/>
+					</svg>
+				</button>
+			</div>
+		{/if}
+		<div class="w-[90%] mx-auto flex items-center pb-10 justify-center py-2"
+		class:pb-10={!$isOpen_mob}
+		class:mb-10={!$isOpen_mob}
+		class:pb-5={$isOpen_mob}
 		class:bg-transparent={!$isOpen_mob}
 		class:bg-black={$isOpen_mob}
 		class:opacity-0={$footerVisible}
 	>
-		<div class="w-[90%] mx-auto flex items-center pb-10 justify-center py-2"
-		class:pb-10={!$isOpen_mob}
-		class:mb-10={!$isOpen_mob}
-		class:pb-5={$isOpen_mob}>
 			<button
 				class="absolute flex items-center justify-center rounded-full w-14 h-14 transition bg-black overflow-hidden"
 				onclick={toggle}
@@ -228,7 +257,7 @@
 		</div>
 		{#if $isOpen_mob}
 			<nav
-			class="w-[90%] mx-auto flex items-center justify-center py-2">
+			class="w-[90%] mx-auto flex items-center justify-center py-2 bg-black">
 				<div class="w-[90%] mx-auto flex flex-col items-center">
 					<div class="flex flex-wrap justify-center items-center gap-x-4 gap-y-1 w-fit max-w-full mx-auto text-center">
 						<a href="/#concept" class="text-xl">Concept</a>
@@ -236,17 +265,6 @@
 						<a href="/#who_we_are" class="text-xl">Qui sommes nous</a>
 						<a href="/contact" class="text-xl">Nous contacter</a>
 					</div>
-					{#if $scrolled}
-						<button 
-							onclick={scrollToTop}
-							class="mb-2 mt-2 flex items-center justify-center w-12 h-12 rounded-full border border-[#F9B333] text-[#F9B333] hover:bg-[#F9B333] hover:text-black transition lg:hidden"
-							aria-label="Retour en haut"
-						>
-							<svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-								<path stroke-linecap="round" stroke-linejoin="round" d="M5 15l7-7 7 7"/>
-							</svg>
-						</button>
-					{/if}
 				</div>
 			</nav>
 		{/if}
