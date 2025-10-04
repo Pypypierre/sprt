@@ -39,17 +39,15 @@ jobs:
           path: public
 
       # Déploiement SFTP par mot de passe (sans clé)
-      - name: SFTP Deploy to OVH DEV
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      - name: FTP(S) Deploy to OVH DEV
+        uses: SamKirkland/FTP-Deploy-Action@v4
         with:
+          server: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
-          server:   ${{ secrets.SSH_HOST }}
-          port:     ${{ secrets.SSH_PORT }}
           password: ${{ secrets.SSH_PASSWORD }}
-          # Envoie le contenu du dossier public/ vers ~/www/dev
-          local_path:  public/*
-          remote_path: ${{ secrets.REMOTE_PATH_DEV }}
-          # Nettoie les anciens fichiers pour rester synchro
-          delete_remote_files: true
-          # Crée le dossier distant s'il n'existe pas
-          sftp_only: true
+          port: ${{ secrets.SSH_PORT }}
+          protocol: ftps      # ⚠️ OVH = FTPS (FTP over TLS)
+          local-dir: public/
+          server-dir: ${{ secrets.REMOTE_PATH_DEV }}/
+          dangerous-clean-slate: true  # supprime les fichiers obsolètes
+      
