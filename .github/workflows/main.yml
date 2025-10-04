@@ -33,12 +33,11 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v4.3.6
         with:
           name: web-dist
           path: public
 
-      # Déploiement SFTP par mot de passe (sans clé)
       - name: FTP(S) Deploy to OVH DEV
         uses: SamKirkland/FTP-Deploy-Action@v4
         with:
@@ -46,8 +45,8 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           port: ${{ secrets.SSH_PORT }}
-          protocol: ftps      # ⚠️ OVH = FTPS (FTP over TLS)
+          protocol: ftps
           local-dir: public/
           server-dir: ${{ secrets.REMOTE_PATH_DEV }}/
-          dangerous-clean-slate: true  # supprime les fichiers obsolètes
+          dangerous-clean-slate: true
       
