@@ -27,16 +27,16 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: web-dist
-          path: build
+          path: public
 
   deploy:
-    needs: build
+    needs: public
     runs-on: ubuntu-latest
     steps:
       - uses: actions/download-artifact@v4
         with:
           name: web-dist
-          path: build
+          path: public
 
       # Déploiement SFTP par mot de passe (sans clé)
       - name: SFTP Deploy to OVH DEV
@@ -46,8 +46,8 @@ jobs:
           server:   ${{ secrets.SSH_HOST }}
           port:     ${{ secrets.SSHP_PORT }}
           password: ${{ secrets.SSH_PASSWORD }}
-          # Envoie le contenu du dossier build/ vers ~/www/dev
-          local_path:  build/*
+          # Envoie le contenu du dossier public/ vers ~/www/dev
+          local_path:  public/*
           server_path: ${{ secrets.REMOTE_PATH_DEV }}
           # Nettoie les anciens fichiers pour rester synchro
           remove_extra_files: true
