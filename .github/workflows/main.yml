@@ -48,8 +48,8 @@ jobs:
           password: ${{ secrets.SSH_PASSWORD }}
           # Envoie le contenu du dossier public/ vers ~/www/dev
           local_path:  public/*
-          server_path: ${{ secrets.REMOTE_PATH_DEV }}
+          remote_path: ${{ secrets.REMOTE_PATH_DEV }}
           # Nettoie les anciens fichiers pour rester synchro
-          remove_extra_files: true
+          delete_remote_files: true
           # Crée le dossier distant s'il n'existe pas
           mkdir_p: true
