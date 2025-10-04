@@ -6,8 +6,8 @@ const config = {
 	// for more information about preprocessors
 	kit: {
 		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
+			pages: 'public',
+			assets: 'public',
 			fallback: 'index.html',
 			strict: false
 		}),
