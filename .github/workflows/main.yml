@@ -33,13 +33,13 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/download-artifact@4.3.4
+      - uses: actions/download-artifact@4
         with:
           name: web-dist
           path: public
 
       - name: FTP(S) Deploy to OVH DEV
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.6
         with:
           server: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
